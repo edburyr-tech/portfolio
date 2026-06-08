@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+		<intro images="6" />
+		
+		<image types = "t" x="0" y="0" w="500" h="30"><text><![CDATA[<font face ="Verdana" size = "24">Flight Data – LRS Search and Rescue</font>]]></text></image>
+		
+		<image types = "t" x="0" y="87" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16">Step		Action</font>]]></text></image>
+		<image types = "t" x="0" y="135" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16">1		Notify CLE RCC (USCG).
+		Note: Provide CLE RCC with the aircraft call sign, last known position, intended shoreline crossing point(s), and 		any other information which will assist them in the physical search.</font>]]></text></image>
+<image types = "t" x="0" y="240" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16">2		Format and transmit an ALNOT message using the <b>GMSG</b> tab in FLTSCAPE, in accordance with FAAO 7110.10		 <i>		Flight Services</i>, Section 8-4 and LMFS-OP-027 <i>Conducting Domestic Search and Rescue.</i>
+		Note: FLTSCAPE does not post the aircraft to the <b>SAR</b> tab or assign SAR responsibilities; therefore, all SAR 		messages for Hazardous Area Reporting Services must be sent manually using Service B.</font>]]></text></image>
+
+<image types = "t" x="0" y="364" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16">3		Initiate a communications search for aircraft. Check the destination airport, which should be the first landing point as 		indicated in the <b>REMARKS</b> field of the LRS flight plan. Additional calls should be made to airports in the vicinity of the 		destination shoreline.</font>]]></text></image>
+
+<image types = "t" x="0" y="450" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16">4		Continue to conduct search and/or cancel the ALNOT in accordance with LMFS-OP-027 <i>Conducting Domestic Search 		and Rescue.</i></font>]]></text></image>
+ 		<image types = "w" url="yyy.png" x="120" y="130" w="742" h="328"/>
+		<image types = "b" url="yyy.png" x="130" y="140" w="667" h="298"/>
+		
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+

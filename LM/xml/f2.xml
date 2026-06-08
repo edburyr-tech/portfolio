@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle H="200" >
+	        <text><![CDATA[]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="350" >
+			<text><![CDATA[]]></text>
+		</intro>
+
+		<image url="endscorm.jpg" x="0" y="0" w="1024" h="513"/>
+
+</page> 
+
+
+

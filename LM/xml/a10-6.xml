@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="6-1a.jpg" type="jpg"/>
+		<image url="6-1b.jpg" type="jpg"/>
+		<image url="6-1c.jpg" type="jpg"/>
+		<image url="6-1d.jpg" type="jpg"/>
+		<image url="6-1e.jpg" type="jpg"/>
+		<image url="6-1f.jpg" type="jpg"/>
+		<image url="6-2b.jpg" type="jpg"/>
+		<image url="6-2c.jpg" type="jpg"/>
+		<image url="6-2d.jpg" type="jpg"/>
+		<image url="6-2e.jpg" type="jpg"/>
+		<image url="6-2f.jpg" type="jpg"/>
+		<image url="6-2g.jpg" type="jpg"/>
+		<image url="6-2e.jpg" type="jpg"/>
+		<image url="6-2f.jpg" type="jpg"/>
+		<image url="6-2g.jpg" type="jpg"/>
+		<image url="6-2h.jpg" type="jpg"/>
+		<image url="16a.jpg" type="jpg"/>
+		<image url="16b.jpg" type="jpg"/>
+		<image url="6-2a.jpg" type="png"/>
+		<image url="5-2b.jpg" type="png"/>
+		<image url="5-2c.jpg" type="png"/>
+		<image url="5-2d.jpg" type="png"/>
+		<image url="5-2e.jpg" type="png"/>
+		<image url="poptext" type="animation"/>
+		<image url="mousemenu" type="animation"/>
+		<image url="5-5a.jpg" type="jpg"/>
+		<image url="5-5b.jpg" type="jpg"/>
+		<image url="5-5c.jpg" type="jpg"/>
+		<image url="5-5d.jpg" type="jpg"/>
+		<image url="5-5e.jpg" type="jpg"/>
+		<image url="5-6a.jpg" type="jpg"/>
+		<image url="5-6b.jpg" type="jpg"/>
+		<image url="5-6c.jpg" type="jpg"/>
+		<image url="5-6d.jpg" type="jpg"/>
+		<image url="5-6e.jpg" type="jpg"/>
+		<image url="5-6f.jpg" type="jpg"/>
+	
+		
+	
+	
+	<PLAYLIST songtotal="20">
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE="" />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		
+	</PLAYLIST>
+</page> 

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<course id="lockheed" client="lockheed" vendor="lockheed" debug="false" title="Lake Reporting Services (LRS)  &lt;br /&gt;Course 33500     06/2015">
+	
+	<folder id="menu"  >
+		<content id="menu" movie="" >
+			<finishText><text><![CDATA[Conclusion:<br><li>Definition of a TFR</li><li>TFR Depiction</li><li>TFR Involved personnel (Request/Issue)</li><li>Commonly issued TFRs</li>]]></text></finishText> 
+			<scormText><text><![CDATA[Thank You!<br>Training Data Successfully Compiled!<br>You are now authorized to sign off on this training.<br>***ATTENTION: YOUR SIGNATURE IS REQUIRED!!!***<br>In order to complete this training you MUST return to the main course page and click on the 'Mark Training Complete' link for this course.]]></text></scormText> 
+		</content>
+	</folder>
+	<folder id="m1" path="m1">
+		
+		<content id="a1" movie="Audio"/> 
+		<content id="a10-2" movie="Audio"/>
+		<content id="a10-3" movie="Audio"/>
+		<content id="button" movie="Audio"/>	
+		<content id="u1" movie="menuTemp"/>
+		<content id="a10-4" movie="Audio"/>
+		<content id="a10-5" movie="Audio"/>
+		<content id="s6" movie="Audio"/>
+		<content id="s7" movie="Audio"/>
+		<content id="s8" movie="Audio"/>
+		<content id="s9" movie="Audio"/>
+		<content id="q1" movie="MCQ"/>
+		<content id="q1b" movie="MCQ"/>
+		<content id="q2" movie="MCQ"/>
+		<content id="blank" movie="Audio"/>
+		<content id="a10-42" movie="Audio" /> 
+		<content id="t13" movie="Audio"/>
+		<content id="t17" movie="Audio"/>
+		<content id="t14" movie="Audio"/>	
+		<content id="t15" movie="Audio"/>
+		<content id="t16" movie="Audio"/>
+		<content id="t18" movie="Audio"/>
+		<content id="q3" movie="MCQ"/>
+		<content id="q4" movie="MCQ"/>
+		<content id="q5" movie="MCQ"/>
+		<content id="blank" movie="Audio"/>
+		<content id="a21" movie="Audio"/>
+		<content id="a22" movie="Audio"/>
+		<content id="q6" movie="MCQ"/>
+		<content id="q7" movie="MCQ"/>
+		<content id="q8" movie="MCQ"/>
+		<content id="blank" movie="Audio"/>	
+		<content id="a26" movie="Audio" /> 
+ 		<content id="f2" movie="TextGraphic" /> 
+	<!--<content id="exe" movie="TextGraphic"/><content id="html" movie="TextGraphic"/>  -->	
+	</folder>
+</course>

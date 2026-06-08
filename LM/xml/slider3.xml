@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[Radio Communications]]></text>
+			<text><![CDATA[Radio Communications]]></text>
+			<text><![CDATA[Radio Communications]]></text>
+			<text><![CDATA[Radio Communications]]></text>
+			<text><![CDATA[Radio Communications]]></text>
+	    </introTitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+		
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_03.png" />
+			<slide image="s4s2_03.png" />
+			<slide image="s4s2_03.png" />
+			
+	
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[The word “heavy” must be used as part of the identification in communications with or about heavy jet aircraft when providing airport advisories.
+PHRASEOLOGY - “United Fifty–Eight Heavy”
+]]></text>
+			</info>
+			<info>
+				<text><![CDATA[NOTE 1: Most airlines will use the word “heavy” following the company prefix and trip number when establishing communications or when changing frequencies. 
+NOTE 2: When in radio-telephone communications with "Air Force One," do not add the heavy designator to the call sign. State only the call sign "Air Force One" regardless of the type of aircraft.
+]]></text>
+			</info>
+			
+			
+			<info>
+				<text><![CDATA[Preface a clearance or instruction intended for a specific aircraft with the identification of that aircraft.
+EXAMPLE
+<i>“Piper Three Four Seven Seven Papa, Fort Worth Radio, ATC clearance, over.”</i>
+]]></text>
+	
+			</info>
+			<info>
+				<text><![CDATA[Emphasize appropriate digits, letters, or similar sounding words to aid in distinguishing between similar sounding aircraft identifications.
+Additionally, notify each pilot concerned when communicating with aircraft having similar sounding identifications. 
+
+]]></text>
+	
+			</info>
+			<info>
+				<text><![CDATA[Example
+<i>"Advisory to Cessna One Three Two Four, transmissions to Cessna One Two Three Four also being made on this frequency." 
+"American Five Twenty-one and American Twenty-one, transmissions being made to each of you on this frequency."</i>
+
+]]></text>
+	
+			</info>
+			
+		</slideinfo>
+</page> 

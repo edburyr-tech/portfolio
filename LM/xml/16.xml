@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="10mins.jpg" type="jpg"/>
+		<image url="1913.jpg" type="jpg"/>
+		<image url="transfer.jpg" type="jpg"/>
+	<PLAYLIST songtotal="3">
+		<SONG url="LM10_3a.mp3" TITLE=""  />
+		<SONG url="LM10_3a.mp3" TITLE=""  />
+		<SONG url="LM10_3a.mp3" TITLE=""  />
+		<SONG url="LM10_3a.mp3" TITLE=""  />
+	</PLAYLIST>
+</page> 

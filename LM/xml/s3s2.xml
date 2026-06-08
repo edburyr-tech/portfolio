@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[Who Can Issue a TFR?]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="350" >
+			<text><![CDATA[FAA Headquarters or the Directors of Terminal or En Route and Oceanic Area Operations (or their designee) having jurisdiction over the area concerned.<br><br><li>Restrictions are kept to the minimum area and duration necessary that will address the situation.</li><li>Any NOTAM that implements a TFR should specify the reason for the flight restriction.</li><br><p style="font-size:12px">Note: TFRs are only implemented for sovereign U.S. airspace and its territories.<br><br>The FAA may issue an advisory of any hazard/danger outside U.S. airspace via the NOTAM System.</p>]]></text>
+		</intro>
+
+		<image url="s3s2.png" x="400" y="20" w="597" h="560"/>
+
+</page> 

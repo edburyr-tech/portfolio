@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MCQ template -->
+
+<!-- mcq_type = score or standard. If score then the feedback scoreRange attribute is used. -->
+	
+<screen type="radioButton">
+	
+	<single_or_multi>single</single_or_multi>
+	<min_selected>1</min_selected>
+	<max_selected>99</max_selected>
+	<numAttempts>3</numAttempts>
+	<question>
+		<title review_label="Initial text" review_type="html"><![CDATA[Temporary Flight Restrictions: <br>Review Questions]]></title>
+		<text review_label="Initial text" review_type="html"><![CDATA[True or False: A TFR is a regulatory action issued via the U.S. Notice to Airmen (NOTAM) system to restrict certain aircraft from operating within a defined area, on a permanent basis, to protect persons or property in the air or on the ground. ]]></text>
+		<graphic review_label="Image 1" review_type="image">assets/images/s1s2_00.png</graphic>
+	</question>
+  
+	<initialInstruction>
+		<text review_label="Initial instruction" review_type="text"><![CDATA[Select the correct options and click Submit]]></text>
+	</initialInstruction>
+
+	<retryInstruction>
+		<text review_label="Initial instruction" review_type="text"><![CDATA[Select Retry or Answer to see the correct options.]]></text>
+	</retryInstruction>
+
+	<answerInstruction>
+		<text review_label="Final Instruction" review_type="text"><![CDATA[Select Answer to see the correct options.]]></text>
+	</answerInstruction>
+
+	<finalInstruction>
+		<text review_label="Final Instruction" review_type="text"><![CDATA[Select Next to continue.]]></text>
+	</finalInstruction>
+  
+	<answers CorrectAnswer="0,1">
+		<answer type="true">
+			<text review_label="Option 1" review_type="text"><![CDATA[True]]></text>
+		</answer>
+		<answer type="true">
+			<text review_label="Option 2" review_type="text"><![CDATA[False]]></text>
+		</answer>
+		
+	</answers>
+	
+	<feedbacks>
+		<feedback fbtype="correct" scoreRange="">
+			<text review_label="Correct feedback" review_type="html"><![CDATA[Correct. A TFR is a regulatory action issued via the U.S. Notice to Airmen (NOTAM) system to restrict certain aircraft from operating within a defined area, on a <b>temporary</b> basis, to protect persons or property in the air or on the ground.]]></text>
+			<graphic review_label="Corerct feedback graphic" review_type="image"></graphic>
+		</feedback>
+		<feedback fbtype="incorrect" scoreRange="">
+			<text review_label="Incorrect feedback" review_type="html"><![CDATA[That's incorrect. A TFR is a regulatory action issued via the U.S. Notice to Airmen (NOTAM) system to restrict certain aircraft from operating within a defined area, on a <b>temporary</b> basis, to protect persons or property in the air or on the ground.]]></text>
+			<graphic review_label="Incorrect feedback graphic" review_type="image"></graphic>
+		</feedback>
+		<feedback fbtype="partial_positive" scoreRange="">
+			<text review_label="Positive partial feedback" review_type="html"><![CDATA[You chose some of the correct answers.]]></text>
+			<graphic review_label="Positive partial feedback graphic" review_type="image"></graphic>
+		</feedback>
+		<feedback fbtype="partial_negative" scoreRange="">
+			<text review_label="Negative partial feedback" review_type="html"><![CDATA[You chose some right and some wrong.]]></text>
+			<graphic review_label="Negative partial feedback graphic" review_type="image"></graphic>
+		</feedback>
+		<feedback fbtype="model" scoreRange="">
+			<text review_label="Model feedback" review_type="html"><![CDATA[A TFR is a regulatory action issued via the U.S. Notice to Airmen (NOTAM) system to restrict certain aircraft from operating within a defined area, on a <b>temporary</b> basis, to protect persons or property in the air or on the ground.]]></text>
+			<graphic review_label="Model feedback graphic" review_type="image"></graphic>
+		</feedback>
+	</feedbacks>
+
+	
+</screen>

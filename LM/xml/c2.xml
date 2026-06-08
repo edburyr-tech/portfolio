@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	    <pagetitle H="45" >
+	        <text><![CDATA[Scenario #2
+]]></text>
+	    </pagetitle>
+
+		<intro w="510" >
+			<text><![CDATA[Pilot: “Good morning Seattle Radio. Cessna One Three Two Four calling on One Two Two Point Two.”
+Specialist: “Cessna One Three Two Four, Seattle Radio. Go ahead.”
+Pilot: “I need to activate my VFR flight plan off of KSEA at this time.”
+Specialist: “November Three Two Four. I have your flight plan activated at this time. There are no adverse conditions along your route of flight, pilot reports appreciated, and for additional en-route weather, contact Flight Watch One Two Two Point Zero.”
+True or False: The Specialist responded in the appropriate Radio Message Format.
+
+ ]]></text>
+		</intro>
+		
+		<image url="headphones.png" x="550" y="100" w="338" h="287"/>
+		<button used="true" xx="160" yy="410" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

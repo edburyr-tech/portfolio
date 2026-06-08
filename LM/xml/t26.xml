@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+		<intro images="4" />
+		<image types = "t" x="0" y="85" w="390" h="30"><text><![CDATA[<font face ="Arial" size = "16">This course has covered the topics:
+<li>Flight Plan Prep and Responsibilities</li><li>Inflight Responsibilities</li><li>Flight Data Responsibilities</li><br>LRS is a high priority for Great Lakes FPA.
+For expedited Search and Rescue Purposes:
+<li>Ensure proper flight plan filing for LRS</li><li>Ensure pilot is familiar with the LRS procedures prior to flight
+</li></font>]]></text></image>
+		<image types = "w" url="intro.jpg" x="460" y="70" w="470" h="319"/>
+		<image types = "b" url="intro.jpg" x="470" y="80" w="450" h="299"/>
+		<image types = "t" x="0" y="0" w="390" h="60"><text><![CDATA[<font face ="Verdana" size = "24">Lake Report Service: Summary</font>]]></text></image>
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+

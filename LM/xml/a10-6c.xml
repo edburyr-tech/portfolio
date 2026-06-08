@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="recordingclearance" type="animation"/>
+		
+	<PLAYLIST songtotal="1" animframe="720">
+	
+		<SONG url="c2.mp3" TITLE=""  />
+		<SONG url="LM10_7c_1.mp3" TITLE=""  />
+		<SONG url="LM10_7c_1.mp3" TITLE=""  />
+		<SONG url="LM10_7c_1.mp3" TITLE=""  />
+		<SONG url="LM10_7c_1.mp3" TITLE=""  />
+		<SONG url="LM10_7c_1.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		
+	</PLAYLIST>
+</page> 

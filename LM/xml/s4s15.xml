@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[Temporary Flight Restrictions: Review Questions]]></text>
+	    </pagetitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[There are one question to test your knowledge. Answer the question by dragging the TFR Description to the TFR Section.]]></text>
+		</intro>
+
+		<dragdrop answer="7,3,6,1,4,5,2" />
+
+</page> 

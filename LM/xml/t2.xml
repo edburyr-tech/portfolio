@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+		
+		<intro images="4" />
+						<image types = "t" x="0" y="125" w="390" h="30"><text><![CDATA[<font face ="Arial" size = "16"><li>FAA Order JO 7110.10</li><li>LMFS-OP-054</li><li>LMFS-OP-027</li><br>Without references and in accordance with FAA Order JO 7110.10, <i>Flight Services</i>, LMFS-OP-054, <i>Providing Hazardous Area Reporting Services</i>, and LMFS-OP-027, <i>Conducting Domestic Search and Rescue</i> you will correctly identify Flight Plan Prep and Responsibilities, Inflight Responsibilities, and Flight Data Responsibilities, related to Lake Reporting.
+Lake Reporting Service (LRS) is one of the Hazardous Area Reporting Services that Flight Service provides for VFR flights over large bodies of water. This service is provided for the purpose of expeditious alerting of Search and Rescue facilities when required.</font>]]></text></image>
+				
+		<image types = "w" url="intro.jpg" x="450" y="70" w="470" h="319"/>
+		<image types = "b" url="intro.jpg" x="460" y="80" w="450" h="299"/>
+		
+
+
+		<image types = "t" x="0" y="0" w="390" h="60"><text><![CDATA[<font face ="Verdana" size = "24">Lake Reporting Services(LRS) Course 33500<br>Objectives </font>]]></text></image>
+
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+
+</page> 
+
+
+

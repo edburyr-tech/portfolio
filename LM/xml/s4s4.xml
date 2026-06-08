@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    
+
+		<introTitle>
+			<text><![CDATA[Section 91.138, Temporary flight restrictions in national disaster areas in the State of Hawaii:]]></text>
+			<text><![CDATA[Restrictions 91.138]]></text>
+			<text><![CDATA[Restrictions 91.138]]></text>
+			
+		</introTitle>
+		<intro >
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s3_01.png" w="500" h="203" x="230" y="80" />
+			<slide image="s4s3_02.png" />
+			<slide image="s4s3_03.png" />
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[Situations that might results in the issuance of a Section 91.138 TFR<br><br><li>A determination that an inhabited area within a declared national disaster area needs protection for humanitarian reasons, i.e.:</li><li>Volcanic eruptions</li><li>Tsunamis</li>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[No person may operate an aircraft within the designated area unless at least one of the following conditions is met:<br><ol><li>(1) That person has obtained authorization from the official in charge of associated emergency or disaster relief response activities, and is operating the aircraft under the conditions of that authorization.</li><li>(2) The aircraft is carrying law enforcement officials.</li><li>(3) The aircraft is carrying persons involved in an emergency or a legitimate scientific purpose.</li><ol>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[No person may operate an aircraft within the designated area unless at least one of the following conditions is met:<br><ol><li>(4) The aircraft is carrying properly accredited newspersons, and that prior to entering the area, a flight plan is filed with the appropriate FAA or ATC facility specified in the NOTAM and the operation is conducted in compliance with the conditions and restrictions established by the official in charge of on-scene emergency response activities.</li><li>(5) The aircraft is operating in accordance with an ATC clearance or instruction.</li></ol>]]></text>
+			</info>
+		</slideinfo>
+</page> 

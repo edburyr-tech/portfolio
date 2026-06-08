@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle H="70" >
+	        <text><![CDATA[This training contains audio.
+]]></text>
+	    </pagetitle>
+
+		<intro w="350" >
+			<text><![CDATA[Make sure you ahve a headset or speakers and that your audio settings are correct.To check the audio settings, do the following:
+» If you have speakers, make sure that theya re turned on and that the volume is turned up
+» On the Windows system toolbar(typically located at the bottom of the screen) there is a volume icon in the system tray. Double click on it and make sure that your Windows system volume is turned up and is not muted. 
+» If you are still unable to hear the audio, contact your training specialist or local IT support. 
+
+ ]]></text>
+		</intro>
+		<image url="headphones.png" x="370" y="10" w="584" h="506"/>
+</page> 
+
+
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+		
+		<intro images="6" />
+		<image types = "b" url="s18.jpg" x="85" y="3" />
+		<image types = "b" url="rarrow.png" x="192" y="238" w="20" h="10"/>
+		<image types = "t" x="135" y="298" w="690" h="20"><text><![CDATA[<font face ="Arial" size = "16">"The T1913 signifies Departure Time +18 minutes. This is the time when communications and SAR with be transferred between Sectors.
+One half of the ETE (0035/2) estimated as 18 minutes, which is added to 1855Z (1855 + 18 = 1913). Also, at this time the aircraft would be at mid lake which is a good time for communication and SAR responsibility transfer."</font>]]></text></image>
+		<image types = "t" x="0" y="0" w="172" h="25"><text><![CDATA[<font face ="Verdana" size = "24">Transfer Time</font>]]></text></image>
+		<image types = "b" url="redbox.png" x="135" y="298" />
+		<image types = "w" url="redbox.png" x="231" y="298" w="18" h="10"/>
+		
+	
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+
+</page> 
+
+
+

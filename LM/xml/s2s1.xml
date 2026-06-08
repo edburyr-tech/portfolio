@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	     <introTitle >
+	        <text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How Do We Depict a TFR? ]]></text>
+			<text><![CDATA[How do you Convey the Details of a TFR? ]]></text>
+	    </introTitle>
+
+		<intro >
+			<text><![CDATA[]]></text>
+			<text><![CDATA[FLTSCAPE Graphic]]></text>
+			<text><![CDATA[FLTSCAPE Text]]></text>
+			<text><![CDATA[FSLink TFR Map]]></text>
+			<text><![CDATA[FSLink TFR Map (Single TFR Graphic Example)]]></text>
+			<text><![CDATA[TFR List (www.faa.gov)]]></text>
+			<text><![CDATA[AISR Text]]></text>
+			<text><![CDATA[Naimes (PilotWeb)Text]]></text>
+			<text><![CDATA[TFR Map (www.faa.gov)]]></text>
+			<text><![CDATA[Single TFR example (www.faa.gov)]]></text>
+			<text><![CDATA[]]></text>
+		</intro>
+
+		
+		<slides>
+			<slide type="text" x="20" y="50" fontSize="24"><text><![CDATA[From the LMFS OP-020, the Official Source of TFR Information:<br>Normal Operations<br><li>TFRs (Text): FLTSCAPE</li><li>TFRs (Graphical)*: FLTSCAPE</li><li>*TFR Graphics and Survival Guides on FSLink are supplemental to the TFR text.</li><br>Backup Sources (During System Outages)<br><li>During system outages or specific software failures, information is provided to the flying public from designated certified internet sources.</li><li>TFRs (Text): AISR and NAIMES (PilotWeb)</li><li>TFRs (Graphical): FSLink and the FAA TFR website http://tfr.faa.gov</li>]]></text></slide>
+			<slide image="s2s1_02.png" />
+			<slide image="s2s1_03.png" />
+			<slide image="s2s1_04.png" />
+			<slide image="s2s1_05.png" />
+			<slide image="s2s1_06.png" />
+			<slide image="s2s1_07.png" />
+			<slide image="s2s1_08.png" />
+			<slide image="s2s1_09.png" />
+			<slide image="s2s1_10.png" />
+			<slide type="text" x="20" y="30" fontSize="24"><text><![CDATA[Though most TFRs have similar wording and boundaries never assume you or the pilot know all the information of the TFR.<br><br><b>Always read the details</b>, such as:<br><li>All Center Point(s).</li><li>All Circumference(s).</li><li>All Effective Date(s)/Time(s).</li><li>All altitude(s)</li><br>No detail must be overlooked or assumed at any time.<br>When safety is at risk no task is insurmountable.<br><b>Again, Always read the details.</b>]]></text></slide>
+		</slides>
+		<slideinfo>
+			
+		</slideinfo>
+</page> 

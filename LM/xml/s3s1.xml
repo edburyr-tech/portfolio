@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[Who Can Request a TFR?]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="350" >
+			<text><![CDATA[<b>Requests can be made by various entities including:</b><br><br><li>Military commands</li><li>Federal security/intelligence agencies</li><li>Regional directors of the Office of Emergency Planning</li><li>Civil Defense State Directors</li><li>State Governors</li><li>FAA Flight Standards District Offices</li><li>Aviation or sporting event organizers/officials</li>]]></text>
+		</intro>
+
+		<image url="s3s1.png" x="400" y="20" w="597" h="560"/>
+
+</page> 

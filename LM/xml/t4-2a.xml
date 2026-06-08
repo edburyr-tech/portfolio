@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	    <pagetitle H="50" >
+	        <text><![CDATA[Qualifications - Preflight]]></text>
+	    </pagetitle>
+
+		<intro w="964" >
+			<text><![CDATA[]]></text>
+		</intro>
+		
+		<image url="s4-1map.jpg" x="10" y="66" w="944" h="444"/>
+		<button used="false" xx="160" yy="410" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

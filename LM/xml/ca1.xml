@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle H="45" >
+	        <text><![CDATA[Scenario #1
+]]></text>
+	    </pagetitle>
+
+		<intro w="510" >
+			<text><![CDATA[N1234 is a Cessna on an active Lake Reporting flight plan and actively monitoring your frequency of 122.3. N1324, another Cessna, calls on 122.3 to inquire about weather information along their route of flight. 
+Pilot: “Good morning Green Bay Radio. November One Three Two Four calling on One Two Two Point Three needing updated weather information on some cloud development to the west of my route.”
+Think about how should the Specialist respond to N1324?
+
+<b>During your initial contact with N1324, advise the pilot that N1234 is also on frequency. After the initial contact with N1324 state "Advisory to Cessna One Three Two Four, transmissions to Cessna One Two Three Four also being made on this frequency." </b>]]></text>
+		</intro>
+		
+		<image url="headphones.png" x="575" y="100" w="338" h="287"/>
+		<button used="false" xx="160" yy="415" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[Abbreviated Transmission]]></text>
+			<text><![CDATA[Abbreviated Transmission]]></text>
+			<text><![CDATA[Abbreviated Transmission]]></text>
+			
+			
+	    </introTitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+		
+		
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_03.png" />
+			
+	
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[Transmissions may be abbreviated as follows: 
+»	Use the identification prefix and the last three digits or letters of the aircraft identification after communications have been established and type of aircraft is known. 
+
+
+]]></text>
+			</info>
+			<info>
+				<text><![CDATA[»	Do not abbreviate similar sounding aircraft identifications or the identification of an air carrier or other civil aircraft having an FAA authorized call sign. 
+»	Omit the facility identification after communication has been established.
+]]></text>
+			</info>
+			
+			
+			<info>
+				<text><![CDATA[»	Transmit the message immediately after the call-up (without waiting for the aircraft's reply) when the message is short and receipt is generally assured. 
+»	Omit the word “over”, if the message obviously requires a reply.
+]]></text>
+	
+			</info>
+			
+		</slideinfo>
+</page> 

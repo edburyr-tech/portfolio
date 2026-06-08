@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[What are some common TFRs issued by the FAA?]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="350" >
+			<text><![CDATA[Section 91.137, Vicinity of Disaster/Hazard Areas.<br><br><li>Section 91.138, National Disaster Areas in Hawaii</li><li>Section 91.139, Emergency Air Traffic Rules</li><li>Section 91.141, Presidential/VIP Flight</li><li>Section 91.143, Space Flight Operations</li><li>Section 91.145, Aerial Demonstrations/Major Sporting Events</li><li>Section 99.7, Special Security Instructions</li><br><br>Each of these TFRs will be discussed in greater detail next. ]]></text>
+		</intro>
+
+		<image url="s4s1.png" x="430" y="20" w="567" h="556"/>
+
+</page> 

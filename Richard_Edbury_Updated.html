@@ -1,0 +1,616 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richard Edbury | Education Specialist</title>
+
+<style>
+:root{
+    --primary:#1B4332;
+    --secondary:#2D6A4F;
+    --accent:#40916C;
+    --light:#F8F9FA;
+    --card:#FFFFFF;
+    --text:#212529;
+    --text-light:#6C757D;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:
+        radial-gradient(circle at top left,
+        rgba(64,145,108,.05),
+        transparent 40%),
+        var(--light);
+    color:var(--text);
+    line-height:1.7;
+}
+h1,
+h2,
+h3,
+p,
+li,
+.job-date,
+.contact,
+.links{
+    text-align:center;
+}
+
+.container{
+    width:min(1200px,90%);
+    margin:auto;
+}
+
+header{
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    padding:5rem 0;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:25px;
+}
+
+.hero-content h1{
+        font-size:2.3rem;
+}
+
+.hero-image img{
+        width:220px;
+        height:220px;
+}
+
+
+
+
+.hero-image img:hover{
+    transform:scale(1.03);
+}
+
+
+
+.hero-content h2{
+    color:white;
+    margin:0;
+    font-size:1.6rem;
+}
+
+.contact{
+    margin-top:20px;
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.contact a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero-buttons{
+    margin-top:25px;
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.btn{
+    background:white;
+    color:var(--primary);
+    padding:12px 24px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:70px 0;
+    text-align:center;
+}
+
+h2.section-title{
+    color:var(--primary);
+    font-size:2.4rem;
+    margin-bottom:40px;
+}
+
+h2.section-title::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:var(--accent);
+    margin:15px auto;
+    border-radius:20px;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+}
+
+.job{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    margin-bottom:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.job h3{
+    color:var(--primary);
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.job-header{
+    text-align:center;
+}
+
+.job-date{
+    color:var(--text-light);
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.skills{
+    margin-top:20px;
+    text-align:center;
+}
+
+.skill-tag{
+    display:inline-block;
+    background:#E9F5EE;
+    color:var(--primary);
+    padding:8px 14px;
+    margin:5px;
+    border-radius:50px;
+    font-size:.9rem;
+    font-weight:600;
+}
+
+a{
+    color:var(--secondary);
+}
+
+ul{
+    list-style-position:inside;
+    padding-left:0;
+    text-align:center;
+}
+
+footer{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.job p,
+.card p{
+    max-width:850px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<div class="hero">
+
+<div class="hero-image">
+<img src="richard-edbury.jpg" alt="Richard Edbury">
+</div>
+
+<div class="hero-content">
+
+<h1>Richard Edbury</h1>
+<h2>Education Specialist</h2>
+
+<div class="contact">
+<a href="mailto:edburyr@gmail.com">edburyr@gmail.com</a>
+<a href="tel:+447969571069">+44 (0)7969571069</a>
+</div>
+
+<div class="hero-buttons">
+<a href="#experience" class="btn">Employment History</a>
+<a href="#book" class="btn">My Book</a>
+<a href="#contact" class="btn">Software</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">About</h2>
+
+<div class="card">
+
+<p>An education manager, instructional designer, author, and former university lecturer with extensive experience designing, producing, and delivering training. I have both a degree in Software Engineering and a Post Compulsory Certificate of Education. I learn rapidly and have a strong passion for education.</p>
+
+<br>
+
+<p>I work with a whole host of methodologies, including Cathy Moore's Action Mapping approach, ADDIE, and a methodology I’ve personally developed, which I've named Importance Teaching.</p>
+
+<br>
+
+<p>I am a strong believer that good education correlates strongly with the thought put into it.</p>
+
+
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">Importance Teaching</h2>
+
+<div class="card">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dIwRrH_Wjgg?si=BAeZ1SZ25A7MCKL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<div class="container">
+
+<h2 class="section-title">Employment History</h2>
+
+<div class="job">
+
+<h3>Chief Executive Officer Optimizing Life LTD</h3>
+
+<div class="job-date">2022 - 2026</div>
+
+<p>
+Founded and managed a business that trained undervalued Filipino employees in advanced AI software, enabling highly cost-effective digital services.
+</p>
+
+<br>
+
+<p>
+See some of the hundreds of examples of our work via our website:
+<br>
+<a href="https://optimizing-life.square.site/" target="_blank">
+https://optimizing-life.square.site/
+</a>
+</p>
+
+<div class="skills">
+<span class="skill-tag">Management</span>
+<span class="skill-tag">Training</span>
+<span class="skill-tag">Artificial Intelligence</span>
+<span class="skill-tag">Business Strategy</span>
+<span class="skill-tag">Sales</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3 id="book">Author: Optimizing Life</h3>
+
+<div class="job-date">2020 - 2023</div>
+
+<p>
+Researched and wrote a book outlining the most practical and guaranteed ways to improve your life.
+</p>
+
+<p>
+Click to read:
+</p>
+</a>
+    <!-- Book cover image with link -->
+        <a href="https://canva.link/ltx6zficn2os4pf">
+            <img src="cover.jpg" alt="Optimizing Life Cover" class="book-cover">
+        </a>
+
+
+<div class="skills">
+<span class="skill-tag">Education Methodologies</span>
+<span class="skill-tag">Research</span>
+<span class="skill-tag">Writing</span>
+<span class="skill-tag">Personal Development</span>
+<span class="skill-tag">Sales</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Global Head of Training: CloudPay</h3>
+
+<div class="job-date">2017 - 2020</div>
+
+<p>
+In this role, I managed CloudPay's Global training, CloudPay being a SaaS provider of payroll services and ran a small team. The role involved training clients and internal staff, both in person and via web conferencing. It also involved instructional design and material creation, maintaining the learning management platform (FUSE), managing staff, project management, and other managerial responsibilities.
+</p>
+
+<div class="skills">
+<span class="skill-tag">Teaching</span>
+<span class="skill-tag">Instructional Design</span>
+<span class="skill-tag">Management</span>
+<span class="skill-tag">Training</span>
+<span class="skill-tag">Coaching</span>
+<span class="skill-tag">LMS Management</span>
+<span class="skill-tag">Curriculum Design</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Instructional Designer: Royal Navy (Subcontract)</h3>
+
+<div class="job-date">2016 - 2017</div>
+
+<p>
+I was subcontracted from the Moment to work as an Instructional Designer for Babcock International, which in turn worked for the Royal Navy. The contract updated the Navy’s entire engineering training program. My focus was on media design. The media was wide-ranging but primarily focused on simulations. I was cleared for an SC-level security clearance to get this job.
+</p>
+
+<div class="skills">
+<span class="skill-tag">Instructional Design</span>
+<span class="skill-tag">Requirements Gathering</span>
+<span class="skill-tag">Storyboarding</span>
+<span class="skill-tag">Captivate</span>
+<span class="skill-tag">Gamification</span>
+<span class="skill-tag">Client Liaison</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Contract Instructional Designer: National Air Traffic Services</h3>
+
+<div class="job-date">2014 - 2016</div>
+
+<p>
+At NATS, I was hired primarily to fulfil a training contract with Lockheed Martin covering a large number of training courses. I developed a template system to rapidly build courses that matched their specific look and feel, speeding up the process to the point where I could work almost full-time on other internal training work. Much of this work involved developing educational games. Work was often collaborative in small teams. Completed packages were deployed on mobile devices and iPads, across a variety of work networks, and through NATS LMS, for which I was granted administrator rights to set up and manage courses. I was approved for a national security waiver to get this job.
+</p>
+
+<div class="skills">
+<span class="skill-tag">JavaScript</span>
+<span class="skill-tag">Flash Programming</span>
+<span class="skill-tag">Captivate</span>
+<span class="skill-tag">SCORM</span>
+<span class="skill-tag">LMS Management</span>
+<span class="skill-tag">Instructional Design</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Associate Lecturer in Games Development: Solent University</h3>
+
+<div class="job-date">2013 - 2014</div>
+
+<p>
+I taught games, physics and mathematics alongside my more specialist areas of design and programming. The post involves teaching, lesson preparation and marking with some minor administrative responsibilities. As with the other teaching jobs, this involved a CRB check. E-learning was developed using Moodle.
+</p>
+
+<div class="skills">
+<span class="skill-tag">Communication</span>
+<span class="skill-tag">Lecturing</span>
+<span class="skill-tag">Preparation</span>
+<span class="skill-tag">Research</span>
+<span class="skill-tag">Programming</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Games Designer and Programmer: Self-employed</h3>
+
+<div class="job-date">2012 - 2013</div>
+
+<p>
+I took a year break with the primary motivation of improving my programming and challenging myself. I had long wanted to design games professionally. With my background in and passion for card games, and given the relatively cheap development costs, it seemed natural to make one. The game uses simple artificial intelligence elements from the Tower Defence genre and a unique card-playing system that creates explosive combinations.
+</p>
+
+<br>
+
+<p>
+I took a month off to fulfil some travel ambitions of mine. I was playing the card game Clash of Dragons and entered a competition they ran involving giving feedback on their game. I was selected to fly to California and spend a few days giving feedback on their game. They offered me a job, but unfortunately, the offer was made just days after the once-a-year work visa window closed, and the position fell through.
+</p>
+
+<div class="skills">
+<span class="skill-tag">Game Design</span>
+<span class="skill-tag">Balancing</span>
+<span class="skill-tag">Budgeting</span>
+<span class="skill-tag">Flash ActionScript 3</span>
+</div>
+
+</div>
+
+<div class="job">
+
+<h3>Games Development Course Leader: Southampton City College</h3>
+
+<div class="job-date">2009 - 2012</div>
+
+<p>
+The game course was quite varied, I taught units in story, graphical narrative, Photoshop, Flash Programming (Action Script 3), 3D graphics using Maya, games design, running a business, research, project management, the games industry, testing, games hardware, software, communication, research techniques, interface design and animation. There were also lessons on general subjects such as CV writing, health, or current affairs, and on fundamental skills such as mathematics, writing, or presentation. The games course grew dramatically whilst I was there, with students achieving significantly higher grades and a high university acceptance rate.
+</p>
+
+<br>
+
+<p>
+There were not enough hours of games lessons to make up a full-time job, so I made up the hours by teaching a range of other courses. These courses include journalism, which I ran for several months after a teacher left mid-term; the analytical aspects of TV and Film Studies; and a Creative Media Diploma, a highly varied course for younger students that encapsulated a wide range of skills from all media disciplines. Whilst doing this, I completed a PGCE at the University of Southampton.
+</p>
+
+<div class="skills">
+<span class="skill-tag">Teaching</span>
+<span class="skill-tag">Research</span>
+<span class="skill-tag">Communication</span>
+<span class="skill-tag">Organisation</span>
+<span class="skill-tag">Improvisation</span>
+</div></div></div>
+</section>
+<section>
+<div class="container">
+
+<h2 class="section-title">Other Employment</h2>
+
+<div class="card">
+
+<ul>
+<li>In 2013, I taught an evening class in Website Design at Totton College.</li>
+<li>I worked for 6 years as a QA tester (later QA lead) at EIDOS publishers of Lara Croft Tomb Raider, amongst many others (since bought by Square Enix).</li>
+<li>I worked for Sega as a Software Standards Specialist.</li>
+<li>Futures Trader - Schneider Trading Associates.</li>
+<li>I taught 3 classes via Google's Help Outs service on Game Development, Web Design, and Flash Programming.</li>
+<li>During university, I worked as a Pensions Administrator for Legal and General.</li>
+<li>Prior to University, I worked as a Visual Basic Programmer at Ascom Telecommunications.</li>
+<li>I also made substantial sums of money as a player of the card games Magic: The Gathering and Marvel Versus (through competitions run by the game maker rather than through gambling).</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+<section>
+<div class="container">
+
+<h2 class="section-title">Older Portfolio Work</h2>
+
+<div class="card">
+<!--Begin Work Section-->  
+    <div id="work">
+    	<br>
+        <div class="content">Note: some of these projects are made using Flash or JavaScript and may not run on typical office computers.  Similarly some of these games are designed for specific platforms for example the busy airspace game is designed to be played with a smartboard in a class room.  It still works on a desktop but may not be optimal.
+        <br>
+        <br>
+        </div>
+        <div class="top-divider"></div>
+        	<div class="content">
+            	<ul id="work-thumbs">
+                	
+                  <li><a href="night/night.html" rel="prettyPhoto[1]" title="Game: Night"><img src="images/work/work-thumb1.jpg"></a></li>
+                    
+                    <li><a href="images/lm.html" rel="prettyPhoto[1]" title="CBT: Lockheed Martin Lake Reporting Services"><img src="images/work/work-thumb2.jpg"></a></li>
+                    <li><a href="pointmerge/pointmerge.html" rel="prettyPhoto[1]" title="Game: Point Merge"><img src="images/work/work-thumb3.jpg"></a></li>
+                    <li class="last"><a href="night/creativity.html" rel="prettyPhoto[1]" title="Essay: Teaching Creativity"><img src="images/work/work-thumb4.jpg"></a></li>
+                    <li><a href="automet/autometsection1.htm" rel="prettyPhoto[1]" title="CBT: Automet"><img src="images/work/work-thumb5.jpg"></a></li>
+                  	<li><a href="night/reflection.html" rel="prettyPhoto[1]" title="Teacher Training: Essay on Reflection"><img src="images/work/work-thumb6.jpg"></a></li>
+                    <li><a href="planes/planes.html" rel="prettyPhoto[1]" title="Game: Busy Airspace"><img src="images/work/work-thumb7.jpg"></a></li>
+                    <li class="last"><a href="altimetry/altimetry.htm" rel="prettyPhoto[1]" title="CBT: Altimetry"><img src="images/work/work-thumb8.jpg"></a></li>
+                    <li><a href="images/adq.html" rel="prettyPhoto[1]" title="CBT: ADQ"><img src="images/work/work-thumb9.jpg"></a></li>
+                    <li><a href="RoyalNavy/rn.html" rel="prettyPhoto[1]" title="Royal Navy"><img src="images/work/work-thumb13.jpg"></a></li>
+                    <li><a href="night/storyconcepts.html" rel="prettyPhoto[1]" title="Essay: Story Concepts"><img src="images/work/work-thumb11.jpg"></a></li>
+                    <li class="last"><a href="Snooker/index.htm" rel="prettyPhoto[1]" title="Game: Snooker Using Headings"><img src="images/work/work-thumb12.jpg"></a></li>
+                    
+                   
+                    
+              </ul>
+            </div>
+        <div class="bottom-divider"></div>
+    </div>
+</div>
+<!--End Work Section-->
+</section>
+<section>
+<div class="container">
+
+<h2 class="section-title">Software Packages</h2>
+
+<div class="card">
+
+<p><strong>Learning Management Systems (LMS):</strong> Fuse, Moodle, SCORM, Canvas</p>
+<br>
+<p><strong>E-learning Authoring Tools:</strong> Captivate, Canva, Articulate, Lectora</p>
+<br>
+<p><strong>Programming langyages:</strong> JavaScript, HTML, CSS, PHP, C++, ActionScript 3, Visual Basic</p>
+<br>
+
+<p>All standard office software, AI packages, operating systems, and art packages</p>
+</div>
+
+</div>
+</section>
+
+
+<footer id="contact">
+
+<p>Richard Edbury • Education Specialist • Instructional Designer • Author</p>
+<p>edburyr@gmail.com • +44 (0)7969571069</p>
+
+</footer>
+
+</body>
+ <!-- The JavaScript -->  
+        <script type="text/javascript">
+    		$(function() {
+                $('#main-menu li a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+
+                    event.preventDefault();
+                });
+            });
+			
+ 			 $(document).ready(function(){
+    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
+  			});
+
+        </script>
+</html>
+```

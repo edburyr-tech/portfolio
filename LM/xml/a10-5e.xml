@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		
+		<image url="5-5a.jpg" type="jpg"/>
+		<image url="5-5b.jpg" type="jpg"/>
+		<image url="5-5c.jpg" type="jpg"/>
+		
+		<image url="5-5e.jpg" type="jpg"/>
+		<image url="5-5d.jpg" type="jpg"/>
+	
+		
+	
+	
+	<PLAYLIST songtotal="5">
+	<SONG url="LM10_5e_1.mp3" TITLE=""  />
+		<SONG url="LM10_5e_2.mp3" TITLE=""  />
+		<SONG url="LM10_5e_3.mp3" TITLE=""  />
+		<SONG url="LM10_5e_4.mp3" TITLE=""  />
+		<SONG url="LM10_5e_5.mp3" TITLE=""  />
+
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""  />
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		<SONG url="LM007-2.mp3" TITLE=""/>
+		
+	</PLAYLIST>
+</page> 

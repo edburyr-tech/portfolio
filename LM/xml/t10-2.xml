@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	    <pagetitle H="90" >
+	        <text><![CDATA[FY-14-EXT-010        Course 33050<br>ATC Clearance Delivery ]]></text>
+	    </pagetitle>
+
+		<intro w="543" >
+			<text><![CDATA[<li>FAAO 7110.10</li><li>FAAO 7110.65</li><li>LMFS-OP-020</li><li>LMFS-OP-047</li><br>The purpose of this course is to identify the specific requirements of issuing ATC clearances or requests, including your responsibilities and the qualifications on when you can transfer a clearance request from your facility. It is imperative that clearances and requests are accomplished as required in accordance with the 7110.10 and Lockheed Martin procedures.
+With references and End-of-Course review questions, and in accordance with FAA Orders JO 7110.10, <i>Flight Services</i> and JO 7110.65, <i>Air Traffic Control</i>; LMFS-OP-020, <i>Facility SOP</i>; and LMFS-OP-047, <i>Relaying ATC Clearances</i>; you will identify: <li><br> The requirements of issuing ATC clearances or requests.</li>]]></text>
+		</intro>
+		
+		<image url="tower.jpg" x="565" y="80" w="390" h="370"/>
+		<button used="false" xx="160" yy="410" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

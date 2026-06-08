@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/ns/breeze-manifest" generator="Adobe Captivate 7">
+	<document type="captivate" icon="captivate" section-count="32"/>
+	<assets>
+		<asset type="document-view">
+			
+			<entry href="adq.swf" width="1024" height="768" />
+			<file href="adq.swf"/>
+			
+			
+<file href="ADQ (FINAL) (Sept 2014) V2.mp4"/>
+<file href="Pool1_CQP.swf"/>
+			
+		</asset>
+		
+		<asset type="document-metadata" location="file"><file href="adq.swf_BDMetadata.xml"/></asset>
+		<asset type="tracking-metadata" location="file"><file href="adq.swf_TRMetadata.xml"/></asset>
+	</assets>
+</breeze-manifest>

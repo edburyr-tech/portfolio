@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tracking-metadata version="1.0" xmlns="http://breeze.macromedia.com/ns/tracking-metadata" generator="Adobe Captivate 7">
+<objective id="Quiz_20149118413" passing-score="80" min-score="0" max-score="100">
+<name>Quiz</name>
+<interactions>
+<interaction id="4760" type="choice" correct-response="4">
+<name>Multiple Choice</name>
+<title>The SESAR programme is built up of sixteen work packages, which two work packages are relevant to the AIM domain?</title>
+<responses>
+<response id="1">Four and Eight</response>
+<response id="2">Eleven and Sixteen</response>
+<response id="3">Three and Ten</response>
+<response id="4">Eight and Fourteen</response>
+<response id="5">Four and Fourteen</response>
+</responses>
+</interaction>
+<interaction id="5451" type="choice" correct-response="1">
+<name>Multiple Choice</name>
+<title>What is the overall objective of System Wide Information Management (SWIM)?</title>
+<responses>
+<response id="1">To provide information users with relevant and commonly understandable information of the right quality, provided at the right time and delivered to the right place, so enabling the concept of net-centric ATM operations</response>
+<response id="2">To provide information users with relevant and commonly understandable information and enabling all to have access to aviation information</response>
+<response id="3">Streamlining and volume reduction of unnecessary information to enable the provision of all global aviation information to users</response>
+</responses>
+</interaction>
+<interaction id="5737" type="choice" correct-response="2">
+<name>Multiple Choice</name>
+<title>In what terms is data quality defined, according to ADQ?</title>
+<responses>
+<response id="1">Accuracy, Traceability and Integrity</response>
+<response id="2">Accuracy, Resolution and Integrity</response>
+<response id="3">Timeliness, Integrity and Resolution</response>
+<response id="4">Consistency, Timeliness and Accuracy</response>
+<response id="5">Integrity, Timeliness and Completeness</response>
+</responses>
+</interaction>
+<interaction id="7821" type="choice" correct-response="1">
+<name>Multiple Choice</name>
+<title>Which answer shows the areas of AIS to AIM supported by ADQ?</title>
+<responses>
+<response id="1">Aeronautical Data Exchange/Agreements with Data Originators/Training/Digital NOTAM/WGS-84/Annex Differences/Adherence to AIRAC/Electronic AIP/AI Conceptual Model/Data Integrity Monitoring/Data Quality Monitoring/Aerodrome Mapping/Obstacles/Terrain</response>
+<response id="3">Aeronautical Data Exchange/Aeronautical Information Briefing/Communications Network/Digital NOTAM/WGS-84/Annex Differences/Adherence to AIRAC/Electronic AIP/AI Conceptual Model/Data Integrity Monitoring/Data Quality </response>
+<response id="2">Aeronautical Data Exchange/Aeronautical Information Briefing/Communications Network/Digital NOTAM/WGS-84/Annex Differences/Adherence to AIRAC/Electronic AIP/AI Conceptual model/Data integrity Monitoring/Data Quality monitoring/Aerodrome Mapping/Obstacles/Unique Identifiers</response>
+</responses>
+</interaction>
+<interaction id="5601" type="choice" correct-response="1">
+<name>Multiple Choice</name>
+<title>ADQ-IR is applicable in:</title>
+<responses>
+<response id="1">Europe EU Member States</response>
+<response id="2">Globally All ICAO Member States</response>
+<response id="3">The United Kingdom only</response>
+</responses>
+</interaction>
+<interaction id="5895" type="choice" correct-response="4">
+<name>Multiple Choice</name>
+<title>As part of the legislative framework, ADQ is described as which of the following?:</title>
+<responses>
+<response id="1">An Essential Requirement</response>
+<response id="3">A Technical Specification</response>
+<response id="2">A National Policy</response>
+<response id="4">An Implementing Rule</response>
+</responses>
+</interaction>
+<interaction id="6184" type="choice" correct-response="2">
+<name>Multiple Choice</name>
+<title>Under ADQ-IR, who is accountable for compliance?</title>
+<responses>
+<response id="1">The Air Navigation Service Provider (NATS)</response>
+<response id="2">The National Supervisory Authority (CAA)</response>
+</responses>
+</interaction>
+<interaction id="7541" type="choice" correct-response="1">
+<name>Multiple Choice</name>
+<title>Which of these statements correctly defines the scope of ADQ?</title>
+<responses>
+<response id="1">Eu-Reg. 73/2010 (ADQ) deals with all upstream data &amp; information handling activities (both systematic and procedural), from origination to publication</response>
+<response id="2">Eu-Reg. 73/2010 (ADQ) deals with all downstream data &amp; information handling activities (both systematic and procedural), from publication through to end use</response>
+</responses>
+</interaction>
+<interaction id="6309" type="choice" correct-response="7">
+<name>Multiple Choice</name>
+<title>Which of the following are core principles of ADQ?</title>
+<responses>
+<response id="1">Increase automation </response>
+<response id="2">Go digital </response>
+<response id="3">Enable the exchange of data</response>
+<response id="4">Traceability </response>
+<response id="5">Provide evidence</response>
+<response id="6">Formal Arrangements</response>
+<response id="7">All of the above</response>
+</responses>
+</interaction>
+<interaction id="6511" type="choice" correct-response="{1,3,4,6}">
+<name>Multiple Choice</name>
+<title>Single European Sky ATM Research (SESAR) is the research and development programme supporting the SES in which of the following performance areas (tick all that apply)?</title>
+<responses>
+<response id="1">Safety</response>
+<response id="2">Communication</response>
+<response id="3">Capacity </response>
+<response id="4">Enviroment</response>
+<response id="5">Technology</response>
+<response id="6">Cost-Efficiency</response>
+</responses>
+</interaction>
+</interactions>
+</objective>
+</tracking-metadata>

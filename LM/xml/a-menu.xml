@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="menus" type="animation"/>
+		
+	<PLAYLIST songtotal="1">
+		<SONG url="alt_menu.mp3" TITLE=""  />
+		
+	</PLAYLIST>
+</page> 

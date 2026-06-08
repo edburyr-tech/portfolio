@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+		
+		<intro images="5" />
+		
+		
+		<image types = "t" x="0" y="56" w="380" h="30"><text><![CDATA[<font face ="Arial" size = "16">Audio slides are depicted by the audio play bar as shown below. Make sure you have a headset or speakers and that your audio settings are correct. To check the audio settings, do the following:
+<li>If you have speakers, make sure that they are turned on and that the volume is turned up. </li>
+<li>On the Windows system toolbar (typically located at the bottom of the screen) there is a volume icon in the system tray. Double click on it and make sure that your Windows system volume is turned up and is not muted. </li>
+<li>If you are still unable to hear the audio, contact your training administrator or local IT support.</li></font>]]></text></image>
+		<image types = "w" url="headphones.png" x="510" y="90" w="359" h="307"/>
+		<image types = "b" url="headphones.png" x="520" y="100" w="438" h="287"/>
+		<image types = "t" x="0" y="0" w="380" h="40"><text><![CDATA[<font face ="Verdana" size = "24">This course contains audio </font>]]></text></image>
+			<image types = "b" url="bb.png" x="-25" y="567" />
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+
+</page> 
+
+
+

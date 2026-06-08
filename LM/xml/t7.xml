@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+		
+		<intro images="3" />
+		
+		
+		<image types = "t" x="0" y="0" w="406" h="20"><text><![CDATA[<font face ="Arial" size = "16">Pilots with on a VFR flight plan should be prepared to provide the following information: 
+<li>Aircraft or flight identification</li><br><li>Type of aircraft</li><br><li>Near-shore crossing point or last fix before crossing</li><br><li>Proposed time over near-shore crossing point or last fix before crossing</li><br><li>Proposed altitude</li><br><li>Proposed route of flight</li><br><li>Estimated time over water</li><br><li>Next landing point</li><br>Pilots <b>not</b> on a VFR flight plan should be prepared to provide all information that is normally provided for a complete VFR flight plan. 
+</font>]]></text></image>
+		<image types = "w" url="lake.jpg" x="444" y="00" w="520" h="462"/>
+		<image types = "b" url="lake.jpg" x="454" y="10" w="520" h="462"/>
+		<image types = "t" x="0" y="0" w="390" h="60"><text><![CDATA[<font face ="Verdana" size = "24">Flight Plan Preparation and Responsibilities</font>]]></text></image>
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+
+</page> 
+
+
+

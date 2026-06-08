@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[Section 91.137, Temporary Flight Restrictions in the Vicinity of Disaster/Hazard Areas:]]></text>
+			<text><![CDATA[Restrictions 91.137(a)(1) ]]></text>
+			<text><![CDATA[Example of 91.137(a)(1)]]></text>
+			<text><![CDATA[Section 91.137, Temporary Flight Restrictions in the Vicinity of Disaster/Hazard Areas:]]></text>
+			<text><![CDATA[Restrictions 91.137(a)(2)]]></text>
+			<text><![CDATA[Restrictions 91.137(a)(2) (cont)]]></text>
+			<text><![CDATA[Restrictions 91.137(a)(2) (cont)]]></text>
+			<text><![CDATA[Example of 91.137(a)(2)]]></text>
+			<text><![CDATA[Section 91.137, Temporary Flight Restrictions in the Vicinity of Disaster/Hazard Areas:]]></text>
+			<text><![CDATA[Restrictions 91.137(a)(3) ]]></text>
+			<text><![CDATA[Example of 91.137(a)(3)]]></text>
+	    </introTitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+		</intro>
+
+		
+		<slides>
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[<font face="Arial" color="#ffffff" size="20px"><li>Situations that might results in the issuance of a Section 91.137(a)(1) TFR</li><br><textformat blockindent="50px"><p>This TFR is issued when toxic gas leaks or spills; fumes from flammable agents which, if fanned by rotor or propeller wash could endanger persons or property on the surface, or if entered by an aircraft could endanger persons or property in the air; volcanic eruptions that could endanger airborne aircraft and occupants; nuclear accident or incident; and hijackings.</p></textformat></font>]]></text></slide>
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_03.png" />
+			<slide image="s4s2_04.png" />
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[<li>No person may operate an aircraft within the TFR unless at least one of the following conditions are met: </li><textformat blockindent="50px"><p>(1) The aircraft is participating in hazard relief activities and is being operated under the direction of the official in charge of on scene emergency response activities.<br>(2) The aircraft is carrying law enforcement officials.<br>(3) The aircraft is operating under the ATC approved IFR flight plan.</p></textformat> ]]></text></slide>
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[(4)<li>The operation is conducted directly to or from an airport within the area, or is necessitated by the impracticability of VFR flight above or around the area due to weather, or terrain;</li><li>Notification is given to the Flight Service Station (FSS) or ATC facility specified in the NOTAM to receive advisories concerning disaster relief aircraft operations;</li><li>The operation does not hamper or endanger relief activities and is not conducted for the purpose of observing the disaster.</li>]]></text></slide>
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[(5) The aircraft is carrying properly accredited news representatives, and prior to entering the area, a flight plan is filed with the appropriate FAA or ATC facility specified in the NOTAM, and the operation is conducted above the altitude used by the disaster relief aircraft, unless otherwise authorized by the official in charge of on scene emergency response activities. ]]></text></slide>
+			<slide image="s4s2_08.png" />
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[<li>Situations that might results in the issuance of a Section 91.137(a)(3) TFR</li><textformat blockindent="50px"><p>This TFR is issued when a disaster/hazard incidents of limited duration that would attract an unsafe congestion of sightseeing aircraft, such as aircraft accident sites, the Olympics, Super Bowl and other events which might attract sightseers.</p></textformat>]]></text></slide>
+			<slide type="text" x="20" y="10" fontSize="20"><text><![CDATA[<li>No person may operate an aircraft within the TFR unless at least one of the following conditions is met:</li><textformat blockindent="50px"><p>(1) The operation is conducted directly to or from an airport within the area, or is necessitated by the impracticability of VFR flight above or around the area due to weather or terrain, and the operation is not conducted for the purpose of observing the incident or event.<br>(2) The aircraft is operating under an ATC approved IFR flight plan.<br>(3) The aircraft is carrying incident or event personnel, or law enforcement officials.<br>(4) The aircraft is carrying properly accredited news representatives and, prior to entering that area, a flight plan is filed with the appropriate FSS or ATC facility specified in the NOTAM.</p></textformat>  ]]></text></slide>
+			<slide image="s4s2_11.png" />
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[<li>No person may operate an aircraft within the TFR unless that aircraft is participating in the hazard relief activities and is being operated under the direction of the official in charge of on scene emergency response activities.</li>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[<li>Situations that might results in the issuance of a Section 91.137(a)(2) TFR</li><br><textformat blockindent="50px"><p>This TFR is issued when aviation or ground resources engaged in wildfire suppression; and aircraft relief activities following a disaster (e.g., earthquake, tidal wave, flood, etc.).</p></textformat>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+		</slideinfo>
+</page> 

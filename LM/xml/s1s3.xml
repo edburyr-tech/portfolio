@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+			<text><![CDATA[What Circumstances Might Result in a “TFR” Being Issued? ]]></text>
+	    </introTitle>
+
+		<intro >
+			<text><![CDATA[Toxic gas leaks or spills.]]></text>
+			<text><![CDATA[Fumes from flammable agents which, if fanned by rotor or propeller wash, could endanger persons or property on the surface or in other aircraft.]]></text>
+			<text><![CDATA[Volcanic eruptions that could endanger airborne aircraft and occupants.]]></text>
+			<text><![CDATA[Hijacking incidents that may endanger persons or property on the surface, or airborne aircraft and occupants.]]></text>
+			<text><![CDATA[Aircraft accident/incident sites.]]></text>
+			<text><![CDATA[Aviation or ground resources engaged in wildfire suppression.]]></text>
+			<text><![CDATA[Aircraft relief activities following a disaster.]]></text>
+			<text><![CDATA[Aerial demonstrations or major sporting events.]]></text>
+			<text><![CDATA[Or reasons of national security. ]]></text>
+		</intro>
+
+		
+		<slides>
+			<slide image="s1s3_01.png" w="500" h="203" x="230" y="80" />
+			<slide image="s1s3_02.png" />
+			<slide image="s1s3_03.png" />
+			<slide image="s1s3_04.png" />
+			<slide image="s1s3_05.png" />
+			<slide image="s1s3_06.png" />
+			<slide image="s1s3_07.png" />
+			<slide image="s1s3_08.png" />
+			<slide image="s1s3_09.png" />
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+		</slideinfo>
+</page> 

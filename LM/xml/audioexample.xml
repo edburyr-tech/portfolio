@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		
+		<image url="s1s2_00.png" />
+		<image url="s1s2_01.png" />
+		<image url="s1s2_02.png" />
+		<PLAYLIST songtotal="2">
+		<SONG url="LM007-1.mp3" TITLE="First" 		ARTIST="John Doe" />
+		<SONG url="LM007-2.mp3" TITLE="Second" ARTIST="Random Singer"/>
+		<SONG url="LM007-3.mp3" TITLE="Third" ARTIST="Super Generic Singer" />
+		
+</PLAYLIST>
+</page> 

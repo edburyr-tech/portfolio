@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="s8a1" type="animation"/>
+		<image url="s8a2" type="animation"/>
+		<image url="s8a3" type="animation"/>
+		<image url="t4" type="swf"/>
+	
+	
+	
+	<PLAYLIST songtotal="3"  animframe="1">
+		<SONG url="S8_1.mp3" TITLE=""  />
+		<SONG url="S8A_2.mp3" TITLE=""  />
+		<SONG url="S8A_3.mp3" TITLE=""  />
+		<SONG url="LM10_3b.mp3" TITLE=""  />
+		
+			
+		
+		
+	</PLAYLIST>
+</page> 

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    
+
+		<introTitle>
+			<text><![CDATA[Section 91.145 Management of aircraft operations in the vicinity of aerial demonstrations and major sporting events:]]></text>
+			<text><![CDATA[Restrictions 91.145]]></text>
+			<text><![CDATA[Example of 91.145]]></text>
+			
+		</introTitle>
+		<intro >
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s8_01.png" w="500" h="203" x="230" y="80" />
+			<slide image="s4s8_02.png" />
+			<slide image="s4s8_03.png" />
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[<li>Situations that might results in the issuance of a Section 91.143 TFR</li><li>Flight demonstrations by the military, Summer/Winter Olympic games, NFL Super Bowl, MLB All-Star Game & World Series,  Indianapolis 500 mile race, and any other aerial demonstration or sporting event the FAA determines necessary</li>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[<li>Prohibit the operation of any aircraft or device, or any activity within the designated airspace area except in accordance with the authorizations, terms, and conditions of the TFR published in the NOTAM, unless otherwise authorized by:</li><textformat blockindent="50px"><p> - Air traffic control; or<br> - A Flight Standards Certificate of Waiver or Authorization issued for the demonstration or event</p></textformat>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+		</slideinfo>
+</page> 

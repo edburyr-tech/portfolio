@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="t5" type="swf"/>
+		<image url="t7" type="swf"/>
+		<image url="t6-3" type="swf"/>
+	
+	
+	<PLAYLIST songtotal="3" animframe="1">
+		<SONG url="4a.mp3" TITLE=""  />
+		<SONG url="4b.mp3" TITLE=""  />
+		<SONG url="4c.mp3" TITLE=""  />
+			
+		
+		
+	</PLAYLIST>
+</page> 

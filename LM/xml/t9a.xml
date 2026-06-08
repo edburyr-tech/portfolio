@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+		<intro images="4" />
+		<image types = "w" url="tb2.png" x="122" y="193" w="744" h="326"/>	
+		<image types = "b" url="tb2.png" x="132" y="203" w="482" h="217"/>	
+		<image types = "t" x="0" y="0" w="500" h="20"><text><![CDATA[<font face ="Verdana" size = "24">Minimum Reception Altitudes (MRA)</font>]]></text></image>
+		<image types = "t" x="0" y="65" w="934" h="30"><text><![CDATA[<font face ="Arial" size = "16"><br><li>MRAs have been calculated for LRS crossings on Lake Michigan. There are no established MRAs for western Lake Erie crossings. Aircraft flying at or above the altitudes listed on the following table should expect to maintain adequate radio signal coverage for the entire length of their flight over the lake</li></font>]]></text></image>
+	
+	<image types = "w" url="tableS9.jpg" x="232" y="203" w="742" h="326"/>	
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+		
+</page> 
+
+
+

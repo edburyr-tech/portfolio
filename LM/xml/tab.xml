@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[Thunderstorm: Introduction]]></text>
+	    </pagetitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[The headings below show the key information related to thunderstorms.<br><br>Click on each heading to view more information.]]></text>
+		</intro>
+
+		<image x="20" y="50" w="" h="" url="s1s2_00.png" />
+		<tabs>
+			<tab image="s1s2_01.png">Thunderstorm</tab>
+			<tab image="s1s2_02.png">Air Mass</tab>
+			<tab image="s1s2_03.png">Physical Attributes</tab>
+		</tabs>
+		<tabinfo>
+			<info>
+				<text><![CDATA[<li>A small scale weather pattern or storm produced by the formation of cumulonimbus clouds, resulting in thunder, lightning, gusty winds and precipitation</li><li>Pose a significant hazard to aviation</li><li>Most frequently impact summer flying</li>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[For a thunderstorm to form, the air must have three things:<ul><li>Sufficient water vapor</li><li>Unstable lapse rate</li><li>Upward/lifting mechanism </li></ul>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[The physical attributes of a thunderstorm vary dramatically:<ul><li>Diameter range: Less than 5 miles to more than 30 miles</li><li>Cloud bases from a few hundred feet to 10,000ft or higher</li><li>Tops range from 25,000ft to 45,000ft<p>    - Occasionally extend above 65,000ft</p></li></ul><br><br>The wide variance in coverage and intensity of thunderstorms only increases the danger of known hazards</li></ul>]]></text>
+			</info>
+		</tabinfo>
+</page> 

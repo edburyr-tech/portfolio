@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[Pilot Initiated Initial Call Up]]></text>
+			<text><![CDATA[Pilot Initiated Initial Call Up]]></text>
+			<text><![CDATA[Pilot Initiated Initial Call Up]]></text>
+			
+			
+	    </introTitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+		
+		
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_03.png" />
+			
+	
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[When a specialist is replying to call up from aircraft. Use the Identification of the aircraft initiating the call up. There are two methods to be used:
+»	Use the full identification in reply to aircraft with similar sounding identifications. 
+»	For other aircraft, use the same identification the pilot used in initial call up; then use the correct identification after communications have been established. 
+
+
+]]></text>
+			</info>
+			<info>
+				<text><![CDATA[EXAMPLE 1:
+<i>"Jet Commander One Two Three Four Papa, Fort Worth Radio."</i>
+]]></text>
+			</info>
+			
+			
+			<info>
+				<text><![CDATA[EXAMPLE 2: 
+Initial Response
+<i>"Cessna Triple Nickel Mickey Mouse, Fort Worth Radio."</i>
+Subsequent Response
+<i>"Cessna Triple Nickel Mickey Mouse, Fort Worth Radio."</i>
+]]></text>
+	
+			</info>
+			
+		</slideinfo>
+</page> 

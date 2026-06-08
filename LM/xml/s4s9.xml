@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    
+
+		<introTitle>
+			<text><![CDATA[Section 99.7 Special security instructions:]]></text>
+			<text><![CDATA[Restrictions 99.7]]></text>
+			<text><![CDATA[Example of 99.7]]></text>
+			
+		</introTitle>
+		<intro >
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s9_01.png" />
+			<slide image="s4s9_02.png" />
+			<slide image="s4s9_03.png" />
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[<li>Situations that might results in the issuance of a Section 99.7 TFR.</li><li>Air Defense Identification Zone (ADIZ)</li><br><textformat blockindet="50px"><p>An ADIZ is an area of airspace over land or water in which the ready identification, location, and control of civil aircraft is required in the interest of national security.</p></textformat><li>Defense Areas</li><br><textformat blockindet="50px"><p>Unless designated as an ADIZ, a Defense Area is any airspace of the U.S., or its territories, in which the control of aircraft is required for reasons of national security.</p></textformat>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[<li>For each person operating an aircraft in an Air Defense Identification Zone (ADIZ) or Defense Area shall (in addition to applicable sections of 14 CFR part 99) comply with special security instructions issued by the Administrator in the interest of national security, under agreement between the FAA and the Department of Defense or other Federal security/intelligence agencies</li>]]></text>
+			</info>
+			<info>
+				<text><![CDATA[]]></text>
+			</info>
+		</slideinfo>
+</page> 

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle H="45" >
+	        <text><![CDATA[Scenario #2
+]]></text>
+	    </pagetitle>
+
+		<intro w="520" >
+			<text><![CDATA[True or False: The Specialist responded in the appropriate Radio Message Format.
+<b>True,
+The Specialist responded in the appropriate Radio Message Format. During  the contact, the Specialist referred to the aircraft as “Cessna One Three Two Four” as well as “November Three Two Four”. During Abbreviated Transmissions, the Specialist  may use the identification prefix and the last three digits or letters of the aircraft identification after communications have been established AND type of aircraft is known. </b>]]></text>
+		</intro>
+		
+		<image url="headphones.png" x="590" y="100" w="338" h="287"/>
+		<button used="false" xx="160" yy="375" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

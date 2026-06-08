@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <introTitle >
+	        <text><![CDATA[Specialist Initiated Initial Call Up]]></text>
+			<text><![CDATA[Specialist Initiated Initial Call Up]]></text>
+			<text><![CDATA[Specialist Initiated Initial Call Up]]></text>
+
+			
+	    </introTitle>
+
+		<intro x="" y="" w="" h="">
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+			<text><![CDATA[]]></text>
+
+		
+		</intro>
+
+		
+		<slides>
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_02.png" />
+			<slide image="s4s2_03.png" />
+	
+			
+		</slides>
+		<slideinfo>
+			<info>
+				<text><![CDATA[During a specialist initiated initial call the identification of the aircraft can be accomplished in two ways:
+»	State the prefix "November" when establishing initial communications with U.S. registered aircraft followed by the phonetic pronunciation of the numbers/letters of the aircraft registration
+»  The specialist may state the aircraft type, model, or manufacturer’s name, followed by the phonetic pronunciation of the numbers/letters of the aircraft registration if used by the pilot on the initial or subsequent call.
+
+]]></text>
+			</info>
+			<info>
+				<text><![CDATA[EXAMPLE 1:
+<i>"November Three Four Seven Seven Papa, Fort Worth Radio."</i> 
+]]></text>
+			</info>
+			
+			
+			<info>
+				<text><![CDATA[EXAMPLE 2: 
+<i>"Cessna Three Four Seven Seven Papa, Fort Worth Radio."</i> ]]></text>
+	
+			</info>
+			
+		</slideinfo>
+</page> 

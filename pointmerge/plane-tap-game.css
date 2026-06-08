@@ -1,0 +1,28 @@
+#score {
+	margin: 0 auto;
+	text-align: center;
+	color: #000;
+	
+	font-size: 40px;
+	
+}
+
+#planeTapGameContainer {
+	position: relative;
+	background-image: url(images/tutorial3.jpg);
+	background-size: 100%;
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+	padding-top: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#planeTapGameContainer canvas {
+	margin: 0;
+	padding: 0;
+	width: 1024px;
+}

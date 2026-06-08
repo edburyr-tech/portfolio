@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle H="80" >
+	        <text><![CDATA[ATC Clearance Delivery: Summary
+
+]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="400" >
+<text><![CDATA[This course has covered the topics:
+<li>Roles and Responsibilities</li><li>Qualifications</li><li>Clearance Requests</li><li>Relaying Clearances</li>
+You will identify the requirements of issuing ATC clearances or requests.
+If you would like to review any section of this course, use the "back" button to navigate through the course.
+Pressing the + "next" button will complete this course.]]></text>
+		</intro>
+
+		<image url="tower.jpg" x="450" y="20" w="567" h="556"/>
+
+</page> 
+
+
+

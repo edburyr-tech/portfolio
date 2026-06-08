@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Creativity</title>
+<link rel="shortcut icon" href="../night/images/goblin.ico" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:  #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other divs~~ */
+.container {
+	width: 800px;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 10px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 800px;
+	float: left;
+}
+.sidebar2 {
+	float: left;
+	width: 10px;
+	background-color: #EADCAE;
+	padding: 10px 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.bigfont {	font-size: 18px;
+}
+.smallsizedfont {	font-size: 14px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <div align="center">
+      <p><strong>Teaching Creativity</strong></p>
+      <p>&nbsp;</p>
+    </div>
+    <p align="left"><br />
+      There is a saying that you can&rsquo;t teach creativity. I am going  to attempt to disprove this with the aid of games design teaching examples.<br />
+    </p>
+    <p align="center"><strong>Originality through Team Work</strong><br />
+    </p>
+    <p align="left">There is a simple game children play where they tell a story  by taking it in turns to say one word. I have used this in teaching and while the  stories are often obscene, they are always original. These ideas are often a  bit bizarre and it&rsquo;s hard to imagine making good games out of most of them, but  it is clear that even a simple interaction can spark creativity in people who  might otherwise claim to be uncreative.<br />
+    </p>
+    <p align="left">Pitch part of an idea (or better yet get a student to).  Get others to develop that idea. This can be  iterated, so the ideas people come up with can then be developed further. When  doing this with four groups I&rsquo;ve always returned at least three very distinctly  different ideas.<br />
+    </p>
+    <p align="left">The idea below was generated this way and came about when  someone I was working with stated absolutely &ldquo;all psychopaths wear  sandals&rdquo;.  It&rsquo;s key to point out that in  many situations this conversation would have run aground with this person  either being ignored or shut down. I would suggest two rules for all these  activities, everyone participates and no shutting down or mocking ideas.<br />
+    </p>
+    <p align="left">The conversation swiftly developed into a discussion of a  killer who has these bizarre signature things they do at every crime scene such  as placing the victims head into a goldfish bowl or indeed wearing flip flops.  Soon scoring for a variety of these traits emerged and a bizarre dark humorous  idea was born.  <br />
+    </p>
+    <p align="center"><strong>Sim Pscyho</strong><br />
+    </p>
+    <p align="left">At first you play  through the rose tinted eyes of a deranged Psychopath. In this game mode the  graphics are tinted, happy and cartoony, the atrocities you commit are not.  Playing like a macabre and humorous version of the Hitman franchise you hunt  down you prey and kill them aiming to maximise your Psychotic Trait Points whilst avoiding capture.</p>
+    <p>The second part follows the detective pair investigating the murder.  Artwork here is in full gory detail, hard hitting and realistic. With a  different humour style although still very dark, the game play follows the  point and click adventure mould with a few extras.</p>
+    <p>The plot culminates with the discovery that the detective you play and  the psychopath are the same person just with split personalities! </p>
+    <p>Sometimes you will be left without a friend to brainstorm with; a  similar idea sparking method can be done via a Google image search. Search for a word that will not give too many identical results such as  &ldquo;painting&rdquo;, &ldquo;fiction&rdquo; or &ldquo;landscape&rdquo; and scroll through the images until one  triggers an idea you can work with.</p>
+    <p align="center"><strong>What if … Method</strong></p>
+    <p align="left"> What if nobody could lie? What if there is a nuclear war?  What if I was sent back in time? What if became a vampire?  Come up with a situation, what if … happened,  extrapolate from there and you can come up with some very cool ideas. As you  may have noticed the first scenario is the Ricky Gervais film &ldquo;The Invention of  Lying&rdquo; and there are numerous other examples from games, books and film of this  method in use. One of the most recent is the film The Purge which asks; what if  all crime was legal for one day a year?</p>
+    <p align="left"> As a teaching activity I recommend first giving the group a &ldquo;what  if&rdquo;, such as, what if the Nazi&rsquo;s won world war 2. Follow this up by getting  them to come up some, &ldquo;what if&rdquo; scenarios of their own. </p>
+    <p align="center"><strong>Fun First Method</strong></p>
+    <p align="left"> This method comes about from playing games where the  developers get you to do some very boring things. When you design a game you  want something that will sell and normally the best way to make a game that sells,  is to make a game that is actually fun to play.</p>
+    <p align="left"> Simply, you pick something that makes a game fun and you  then try to make a game that optimises this trait. Some examples fun things  include manual dexterity, social interaction, altruism, winning it and player  immersion. For the more advanced you might want to consider optimising two or  more of these things.</p>
+    <p align="left"> Interestingly the top value is often not best, for example a  game that you always win, might be less fun than a game you win 95% of the time  and a game that is as quick as possible, may be too fast to control. A good  classroom project might be to get students to experiment to find the optimal  values and then design a game to match the value they come up with.</p>
+    <p align="center"><strong>The Very, Very Fast Game</strong></p>
+    <p align="left"> Very few games have done speed well over the years.  Most games focusing on speed become  uncontrollable, memory exercises or force people not to use the maximum speed.  Sonic whilst not perfect for not forcing you to stop has several main features  to stop you slowing down,  level design,  the partial immunity granted by spinning and the fact that most things cause  you to lose rings rather than die (and you can normally recollect at least one  ring meaning you are safe). My game applies similar principles to the car based  fighting game.</p>
+    <p align="left"> So the basic principles to encourage players to move  quickly:</p>
+    <ol>
+      <li>Immunity if you are going over a certain speed  (but collisions slow you down).</li>
+      <li>Occasional race scenario.</li>
+      <li>Mini maps or other clear indications of upcoming  obstacles.</li>
+      <li>Nothing that actually punishes you for going  quickly.</li>
+    </ol>
+    <p>As a note I could include time limits, I feel a hard time  limit is often very annoying, although softer time limits such as where a  player is driving through an area being rent asunder by an earthquake could be  a lot of fun. </p>
+    <p> The game I have envisaged would be an above view (as this  allows the player to see more around them) driving based roleplaying game where  the vehicles a player has access to upgrade and many are very quick. While some  scenarios could be races I see most as having rival cars tanks etc. trying to  kill you while you fulfil an objective. </p>
+    <p> I&rsquo;d like to include combos in the game, not of the complicated  button press kind but enemies killed with no breaks and other similar  challenges to increase the manual dexterity factor. I&rsquo;d also like to have a lot  of interactive scenery for example two parallel bars that you would need to  build up speed and turn horizontally to cross, another of Sonic&rsquo;s strengths is  providing players with fun scenery to be fast on such as the pinball style  bumpers, jumps and loop the loops most of which can be directly transposed.</p>
+    <p align="center"><strong>Free Writing</strong></p>
+    <p align="left">Normally when you write you have a plan and are trying to  steer towards an end goal. If you write quickly without stopping and with no revision  you will often find your story takes turns you did not expect. Putting two  fairly strongly defined characters in an interesting situation and have them  act as those characters would, may well result in some situations that are unexpected. </p>
+    <p> As a note this can be done with acting too, although this  can be hard for many gaming students.</p>
+    <p align="center"><strong>Path of least Resistance</strong></p>
+    <p align="left"> The path of least resistance is to build on an existing idea,  but it often turns out this is harder for students than it looks, especially as  they generally pick a very polished product to evolve. At the basic level you  want to identify what you like about something and what you dislike and then  find a solution for the things you dislike, whilst keeping what you like.</p>
+    <p align="left"> I&rsquo;ve had this solution several times: <br />
+    </p>
+    <p align="left">Game: Call of Duty.<br />
+    </p>
+    <p align="left">What I dislike: lag.<br />
+    </p>
+    <p align="left">Solution: make it lag less.</p>
+    <p align="left"> When I teach this I generally tie it in with contextual  analysis and reviewing and get students to correct a game based on a review.  The other activity I like is that of merging two reasonably different products  together. I like fries, I like ice-cream, mmm fries and ice-cream. </p>
+    <p align="center"><strong>Tarot Story based game</strong></p>
+    <p align="left"> This is an example of taking something existing and making  it into a game in this case Tarot.<br />
+      Fortune telling is a great story device, you can give away  hints, add mystery and talk about a subject that many people find inherently  interesting. Tarot cards have long been used for fortune telling but originally  started out as a game. My concept was: While playing the game tarot the  fortunes told by the cards come true. </p>
+    <p align="left"> I chose to have the player be a tarot player in a castle,  playing against some of the rulers of the land. While other events occur and there  may occasionally be cut scenes between games, most of the story and various  intrigues at court are told through dialogue while playing the game. This  section is based on the Hand of the king&rsquo;s council meetings in the Game of  Thrones books.</p>
+    <p align="left"> One slight problem is that the tarot game itself may be very  poor but I think this could easily be solved and potentially you could even  have a strategy card game with a tarot theme or give players the opportunity to  play the tarot game of yore.</p>
+    <p align="left"> This game has the advantage for independent developers that  tarot card artwork that is in the public domain exists, although personally  when I had a quick look I couldn&rsquo;t find artwork that satisfied me. One note  though is that a designer is always looking for ways to save work for the team,  as that allows more time to make the game better in other ways. </p>
+    <p align="center"><strong>Do I need creativity?</strong></p>
+    <p align="left"> A lot of people feel that they aren&rsquo;t creative and may still  say after doing all these techniques that their ideas suck etc. Fortunately it  doesn&rsquo;t matter as much as all that, many games are direct ports of real life  popular things, sports, film, board games are frequently used as inspiration  for games. As an example, Blizzard has admitted that the Warcraft franchise  used Warhammer games as inspiration. Even top designers should be on the  lookout for new trends and ideas with game potential. There will probably be a  lot of creativity needed although you may find it easier with an overall  concept in place already*.</p>
+    <p align="left"> There are a lot of problems with this approach, firstly it  takes a long time to make a game and if your thing is a short term trend, the  trend may have passed by the time the game releases. Many of the better ideas  are taken already, some people have become jaded due to playing a lot of poorly  made licensed products and avoid them and there can be costs or risk of legal  action involved. </p>
+    <p align="left"> One tip from my time at EIDOS is that there can be some  inventive ways to license the product you want cheaply. Lego Star Wars for  example presumably makes use of the fact that Lego&rsquo;s toy license allowed a work  round of Star Wars licensing. Similarly does something have a book, film and  comic well maybe those licenses are held by different people and you can see  who offers it with the best terms. Also older products may be out of copyright  although you might need to be careful as copyright laws vary from country to  country.</p>
+    <p align="left"> You can also consider changing the setting for existing  games or updating them for new technology. Would a Mario style game work well  on Xbox? Would a gyms running machine be a good setting for a racing game? <br />
+      Two products that I&rsquo;m not aware of game ports as of yet that  I think are good prospects:<br />
+    </p>
+    <p align="left">The King killer Chronicles series by Patrick Rothfuss.</p>
+    <p align="left"> The board game Ricochet Robot (a very good phone application  I suspect).</p>
+    <p>Normally a good game is an amalgamation of several ideas.  Store your good ideas and see if they work together when you get a new one.  Most games designers recognise that click and the excitement when an idea fits  into place. Much of being creative is just thinking about potential applications, when  something happens or you view a new product.<br />
+    </p>
+    <p>*Note a good exercise is to develop an existing idea, either  a real game that all the students have played or one of their own ideas by  adding in a level or enemies to it. Some students are a lot more creative if  you narrow the scope a little.</p>
+       <p align="left"><a href="../index.htm#work">Return to portfolio</a></p>
+  </div>
+<!-- end .container --></div>
+</body>
+</html>

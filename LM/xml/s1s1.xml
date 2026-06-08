@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	
+
+	    <pagetitle >
+	        <text><![CDATA[Definition of a TFR]]></text>
+	    </pagetitle>
+
+		<intro x="20" y="20" w="350" >
+			<text><![CDATA[A TFR is a regulatory action issued via the U.S. Notice to Airmen (NOTAM) system to restrict certain aircraft from operating within a defined area, on a temporary basis, to protect persons or property in the air or on the ground.]]></text>
+		</intro>
+
+		<image url="s1s1.png" x="400" y="20" w="597" h="383"/>
+
+</page> 

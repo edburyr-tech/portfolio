@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+		<intro images="4" />
+		<image types = "t" x="0" y="50" w="390" h="30"><text><![CDATA[<font face ="Arial" size = "16"><li>If an aircraft does not report within 15 minutes of the last contact (five minutes after the contact was due), or 15 minutes after the ETA for LRS below the MRA, the Inflight specialist will notify Flight Data to initiate Search and Rescue (SAR) on the aircraft at the ALNOT stage.</li><br><li>When an aircraft is flying below the MRA, the Inflight specialist must attempt to establish contact with aircraft by broadcasting in the blind.</li><br>If attempts to contact the aircraft are unsuccessful, the specialist will advise the appropriate Flight Data (FD) to initiate SAR on the aircraft at the ALNOT stage.</font>
+]]></text></image>
+		<image types = "w" url="s3-2.jpg" x="440" y="70" w="520" h="340"/>
+		<image types = "b" url="s3-2.jpg" x="450" y="80" w="520" h="340"/>
+		<image types = "t" x="0" y="0" w="390" h="30"><text><![CDATA[<font face ="Verdana" size = "24">Flight Data</font>]]></text></image>
+		<image types = "i" url="headphones.png" x="300" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="395" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="400" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="405" y="300" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="410" y="000" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="415" y="100" w="438" h="287"/>
+		<image types = "i" url="headphones.png" x="420" y="200" w="338" h="287"/>
+		<image types = "i" url="headphones.png" x="430" y="300" w="438" h="287"/>
+		<button used="false" xx="200" yy="400" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+	    <pagetitle H="50" >
+	        <text><![CDATA[Qualifications - Facility               Qualifications – Service Area]]></text>
+	    </pagetitle>
+
+		<intro w="934" >
+			<text><![CDATA[]]></text>
+		</intro>
+		
+		<image url="s4-1.jpg" x="10" y="66" w="914" h="444"/>
+		<button used="false" xx="160" yy="410" effect="next" txt="CLICK FOR ANSWER"/>
+</page> 
+
+
+
+

@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Story Ideas</title>
+<link rel="shortcut icon" href="../night/images/goblin.ico" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:  #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds all other divs~~ */
+.container {
+	width: 800px;
+	background-color: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 10px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 800px;
+	float: left;
+}
+.sidebar2 {
+	float: left;
+	width: 10px;
+	background-color: #EADCAE;
+	padding: 10px 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.bigfont {	font-size: 18px;
+}
+.smallsizedfont {	font-size: 14px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <p align="center"><strong>Story Ideas</strong></p>
+    <p align="left"> This article features various ideas for books. With all the ideas  below I have a lot more planned than is written here,  please ask if any concept is of interest.<strong></strong><br />
+  </p>
+    <p align="left"><strong>Super Power Auction</strong><br />
+  </p>
+    <p align="left">A company invents superpowers. Each person can only have one  super power. Good super powers are very expensive while the cheaper ones are  nearly free and are sold on an online auction site somewhat like eBay.</p>
+    <p align="left"> The story initial follows a small boy from a poor background.  He is very much enamoured by the new site. He follows news media, blogs and  talks to people trying to decide which power he should choose when he is the  right age.</p>
+    <p align="left"> I envisage this as a mildly humorous short story although  with other ideas I am sure this could be developed into a full novel. </p>
+    <p align="left"><em>Super powers did not  show up through contact with an alien race, divine power or through a  science experiment anomaly, they appeared in an infomercial. When  it was discovered not to be a hoax the media went almost as crazy as shares in  Lycra.</em><br />
+    </p>
+    <p align="left">The strengths of the story are in my opinion that: </p>
+    <div align="left">
+      <ul>
+        <li>
+          The main character shows character development.
+        </li>
+        <li>
+          The main character has a clear, believable  intrinsic motivation.
+        </li>
+        <li>
+          The situation is simple to explain and has a low  essential character count making it a good short story.
+        </li>
+        <li>
+          The best bits about most super hero related  things are the bit where the characters discover their powers and make their  moral choices (genesis), this focuses on that. 
+        </li>
+        <li>
+          There is a lot of potential humour in the naming  and potential stupid things people with newly found super powers would do.  Especially if the protagonist follows  social media as more ludicrous things  are probable, if you assume you take the silliest things anyone in the world has done.</li>
+      </ul>
+    </div>
+    <p align="left">Downsides:</p>
+    <div align="left">
+      <ul>
+        <li>
+          Potentially one main character and no support  characters can be very dry although this is easy to fix.
+        </li>
+        <li>
+          Would be very hard to profit from as short, hard  to categorise stories are not in high demand.
+        </li>
+        <li>
+          Readers may feel let down if the book ends just  as the character gets their powers.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Inspiration: Listening to Soon I will be Invincible while  trading on Diablo 3&rsquo;s auction house.<br />
+    </p>
+    <p align="left"><strong>Future Studies</strong></p>
+    <p align="left"> I have a lot of different ideas falling under this category.  The first is a serious book making the case for teaching about the future.  In my view there is an endemic problem with  western society that people take a very short term view and often cling to  outdated precepts; this is worst manifested in politics. A short section of the  book is seen below:</p>
+    <p align="left"><strong><em>Future</em></strong><br />
+    </p>
+    <p align="left"><em>History is studied in  most schools in the developed world, there are a multitude of serious books on  the subject and there is much it can teach us. I propose a new subject Future.  The future is unknown and even the best proponents will never be entirely right  but does that mean it doesn&rsquo;t deserve our thought or for repositories of  knowledge to rival those of historic scholars?</em></p>
+    <p align="left"><em>If you want to study  the future now, what would you do? For certain subjects there are already books  available, economic and political text books on the future do exist, if rare,  you can read about end of the world scenarios, but a lot of the information you can  find is in science fiction.  </em></p>
+    <p align="left"><em>If you can model the  future well, you are rich. If you can model the future well you can make huge  political change. If you can model the future well you might even avert a  disaster that could end humanity. </em></p>
+    <p align="left"><em>As a teacher I&rsquo;ve taught  hundreds of children from poorer backgrounds and one of the scariest things I  noticed is, very few of them plan ahead or even think very hard about anything  beyond their next party. Studying the future can help spot skill shortages for  work opportunities, can teach planning or can help students draw likely  conclusions from evidence.</em></p>
+    <p align="left"><em>Modelling the future  and drawing conclusions from it makes money and a lot of money if you are right  as it helps you to predict the companies and industries that will do well and  therefore are best invested in. It can help you predict trends ahead of time a  key skill in media and entrepreneurship of all kinds. </em></p>
+    <p align="left"><em>Near future investigation  can help drive invention. If you know what technologies are available already  and believe me, if you want to accurately predict the future you need to; it  is not a big step to combine some, to create an idea worthy of being called an  invention in its own right.</em></p>
+    <p align="left"><em>In this book I aim to  describe how the subject Future would work, convince you that the claims  already made are not marketing hype, explain how it would help you and draw some  briefly thought through possibilities.</em></p>
+    <p align="left"><strong><em>Principles of Studying the Future</em></strong></p>
+    <p align="left"><em>How can possibly  predict the future? Surely you are going to be wrong? Isn&rsquo;t this just a waste  of time?</em></p>
+    <p align="left"><em>These are some tough questions.  You have to accept in future studies that you will not always be right! This  sentence is important being one of the key principles of the subject. It is  reasonable to predict that there will be an Olympic games in 2024, as Future  studies based predictions go this is one of the safer ones but is this  necessarily true? Many things could happen to prevent this, so many in fact  that a comprehensive list is impossible to write. Despite a near infinite list  of potential events that could prevent this, I still think this event is likely  to happen. You should never bet everything on a single expected outcome from  future studies however plausible it seems!</em></p>
+    <p align="left"> Strengths</p>
+    <div align="left">
+      <ul>
+        <li>
+          Speculating on the future is interesting.
+        </li>
+        <li>
+          I believe the concept is actually correct, to fully explain why though, I would have to write most of the book.
+        </li>
+        <li>
+          I believe the book is stating an original point  of view or at least an argument that hasn&rsquo;t been debated and publicised.
+        </li>
+        <li>
+          The book has quite high potential to educate the  audience.
+        </li>
+        <li>
+          There is a huge amount of information and if  successful would be easy to write a full franchise.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weaknesses</p>
+    <div align="left">
+      <ul>
+        <li>
+          It will be hard to convince people that it is  worthwhile trying to predict the future, partially because it is extremely hard  to do quickly enough for a synopsis.
+        </li>
+        <li>
+          It would be hard to write the book without short  term predictions, if they are wrong you lose credibility.
+        </li>
+        <li>
+          Honest predictions for UK and USA are likely to  be slightly negative (this is most of your audience and they may not appreciate  this).
+        </li>
+        <li>
+          Hard to categorise, it will be put into  education sections and it probably wants to be in self-help.
+        </li>
+      </ul>
+    </div>
+    <p align="left"><strong>The History of the 21st  Century </strong></p>
+    <p align="left"> This is similar to the previous concept but written   as science fiction. The protagonist is in a university class in the future,  studying the 21st century. I envisage a global job bank where a huge  string of requirements are needed for all desirable jobs. A job appears with just  a salary and list of requirements but no explanation for what the actual job  is. Being ludicrously well paid the job generates a media buzz. The last  requirement for several students is the above mentioned course. I am considering  making the job involve time travel to the present day but this seems slightly  cheesy.</p>
+    <p align="left"> Strengths</p>
+    <div align="left">
+      <ul>
+        <li>
+          If your predictions were right you could  plausibly end up with a lot of free publicity.
+        </li>
+        <li>
+          Education settings are good for explaining  naturally.
+        </li>
+        <li>
+          Future class rooms and roleplaying style  learning where students act as characters from history allows interesting  snippets and for a dynamic story.
+        </li>
+        <li>
+          Education setting offers character development  and motivation. 
+        </li>
+        <li>
+          The mystery of the job is a hook for readers.
+        </li>
+        <li>
+          The future is still interesting.
+        </li>
+        <li>
+          There is less pressure to be right than in the  previous concept.
+        </li>
+        <li>
+          It is also a lot less dry.
+        </li>
+        <li>
+          It is similarly easy to expand and make into a  franchise.
+        </li>
+        <li>
+          Properly named it will easily be categorised as  science fiction.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weaknesses</p>
+    <div align="left">
+      <ul>
+        <li>
+          Typical science fiction reader may not like this  style of story as it is a departure from most common science fiction (This is  minor as this is quite an adaptable audience).
+        </li>
+        <li>
+          Have to be wary of legal action from real people or businesses you may mention.
+        </li>
+      </ul>
+    </div>
+    <p align="left"><strong>Murder Mystery Weekend</strong></p>
+    <p align="left"> In my view a stately home hosted murder mystery weekend is a  wonderful setting for an actual murder mystery. This is because the house can  have a range of interesting things and plot devices set up. For example you  could get the participants to hand in their mobile phone, host it on a remote  island, have most people not realise the murder is actually real for a while  after it happens or include a range of cool secret passages. I also feel that a  murder mystery weekend is inherently interesting subject. <br />
+      </p>
+    <p align="left">As a variation on this theme I considered a group of  vampires hosted the event and slowly start eating people. I also considered having the supposed murder being an uninduced heart attack instead.<br />
+    </p>
+    <p align="left">Strengths:</p>
+    <div align="left">
+      <ul>
+        <li>
+          More light hearted than many settings.
+        </li>
+        <li>
+          Crime novels are very popular.
+        </li>
+        <li>
+          Potential for a lot of twists.
+        </li>
+        <li>
+          Could actually do the event/party game of the  book.
+        </li>
+        <li>
+          Fairly low risk as in very few downsides.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weakness</p>
+    <div align="left">
+      <ul>
+        <li>
+          Not overly original and so relies heavily on  writing quality.
+        </li>
+        <li>
+          Needs characters to be added to be a real concept  as they are hugely important here.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Inspiration: Gosford Park, Agatha Christie, House on Haunted  Hill and Dead Famous by Ben Elton.</p>
+    <p align="left"><strong>Ideas book/Conversation.com</strong></p>
+    <p align="left"> People love hearing concepts. Two people in a fairly dead  end job discuss their myriad of ideas about all things. </p>
+    <p align="left">      I considered taking interesting concepts to an inherently  interesting friend of mine, pitching them to him and recording the resulting  conversation. The book could then be written based on these conversations with  minor adjustments. Whilst doing this I also considered a website where  interesting conversations are stored.</p>
+    <p align="left">      Strengths</p>
+    <div align="left">
+      <ul>
+        <li>
+          You read this far,  concepts must be  interesting.
+        </li>
+        <li>
+          There are a lot of people with a lot of great  ideas but no gumption or time to do them all gathering these ideas would be fun  and probably quite easy.
+        </li>
+        <li>
+          Potentially easy to write due to the plan above.
+        </li>
+        <li>
+          Conversations allow you to change subject easily  so the book can transition with your interests and therefore remain fun to  write throughout.
+        </li>
+        <li>
+          The person who is always coming up with ideas  but never does them is a believable and rarely used character with an obvious progression  potential.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weaknesses </p>
+    <div align="left">
+      <ul>
+        <li>
+          Again very hard to categorise, it would go in  general fiction where it would likely be more popular with science fiction or  fantasy readers.
+        </li>
+        <li>
+          Could stagnate or become repetitive quite  easily.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Inspiration Dragons Den, Clerks, High Fidelity.</p>
+    <p align="left"><strong>Game of Thrones Tarot</strong></p>
+    <p align="left"> In the Game of Thrones books, the political manoeuvrings of  the council are to me the most interesting parts. In this book a powerful  person in the council is an avid player of a card game which has some  similarities to Tarot. The council therefore discuss their business whilst  playing the game. A young and initially naive person joins the group  purportedly because of his interest in the game and the seasoned councillors  manipulate them whilst various stories of intrigue play out. Potentially the  tarot like game itself could have some fortune telling or mystical component.  This could also be a modern day book about poker played between high end powerbrokers.<br />
+    </p>
+    <p align="left">Strength</p>
+    <div align="left">
+      <ul>
+        <li>
+          An unusual approach to the fantasy genre.
+        </li>
+        <li>
+          Game of Thrones is low on similar works (Joe Abercrombie?)  and has been vastly popular.
+        </li>
+        <li>
+          The game allows for a smaller setting of  characters initially as fantasy books can be quite daunting in this regard.
+        </li>
+        <li>
+          A new player allows for fairly easy explanation.
+        </li>
+        <li>
+          This book is easy to twist multiple ways
+        </li>
+        <li>
+          If the game involves steep gambling and  non-financial forfeits 
+        this can drive plot interestingly.</li>
+        <li>
+          Gambling, fortune telling and intrigue are  strong story telling devices.
+        </li>
+        <li>
+          Easy to categorise whilst also being original.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weaknesses</p>
+    <div align="left">
+      <ul>
+        <li>
+          Need to avoid the main character being too weak.
+        </li>
+        <li>
+          A extremely hard book to write.
+        </li>
+        <li>
+          There may be a glut of books copying Game of Thrones  being written.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Inspiration: Game of Thrones, Rounders (the film not the  ball game) and Tarot.</p>
+    <p align="left"><strong>Darkfall</strong><br />
+    </p>
+    <p align="left">Meteors falls from the sky, slowly at first but rapidly  increasing in pace, the meteors provide magic to a world that has long been  without it. Initially welcomed, as the meteor showers increase and become more  violent there is a distinct threat to the world. When Dark falls things change.</p>
+    <p align="left"> This has happened before, in times gone by a huge magical protective  barrier was erected to keep the meteors out. The barrier is now failing but to recreate  it, requires several of the world&rsquo;s most powerful magicians and unsurprisingly they  are not keen to volunteer; especially as the last group are believed to have died  creating the barrier.</p>
+    <p align="left"> There is a lot left to do with this outline. You could probably  merge it with the previous idea and construct an  epic scale fantasy. It  could be easily changed to a science fiction or modern day super hero theme. I  used this story in my game Night, (called Night as both Dark Fall and Darkfall  are taken) with a still not fully implemented but intended theme of a semi Wild  West fantasy.</p>
+    <p align="left"> Initially following a cowboy hat wearing, goblin protagonist  who, while not entirely nice, has been ousted from his lands repeatedly, by, both  the encroachment of others and the general sentiment that you can do anything to  goblins. The Goblin, despite the hat fills the Indians role  and share some characteristics (maybe wigwams and war paints). The Goblin grows  to become a powerful wizard. Meanwhile the book/books follows other wizards  ascent to power in other, very different circumstances (I would not follow all  in detail).</p>
+    <p align="left"><em>Onyx, pitch or  villains heart, are black but yet the night,</em><br />
+      <em>Is darkest covering  all within, its endless missing sight.</em><br />
+      <em>Evening brings forth  darkness, as light exudes from open flame.</em><br />
+      <em>So with Cimmerian  night, the tiny meteors share its name.</em></p>
+    <p align="left">Strengths</p>
+    <div align="left">
+      <ul>
+        <li>
+          Another somewhat new take on Fantasy but similar  enough to remain familiar.
+        </li>
+        <li>
+          A lot of flexibility, I have numerous other ideas  not mentioned here for this story line.
+        </li>
+        <li>
+          I very much like the idea of a group of  disparate but powerful magicians trying to ally without backstabbing to allay  the threat to the world. This is both ripe with allegorical potential but also  with characters that have interesting emotional decisions toward the end.
+        </li>
+        <li>
+          I also like the potential of having more people  able to complete the ritual than are needed and have the politicking around  being left out of the potentially fatal ritual.
+        </li>
+      </ul>
+    </div>
+    <p align="left">Weakness</p>
+    <div align="left">
+      <ul>
+        <li>Meteors are rather a clichéd fantasy trope.</li>
+        <li>Could be conflicted, there are child friendly  elements but potentially very adult related content (if the meteors magic is drug like for example).</li>
+        <li>Making a goblin likeable and also interesting is  mildly dangerous.</li>
+        <li>Could well be epic in scope and therefore take a  very long time to write.</li>
+      </ul>
+    </div>
+    <p align="left">Inspiration: Final Fantasy X, the Wheel of Time, Star Dust, Firefly.</p>
+    <p align="left"><a href="../index.htm#work">Return to portfolio</a></p>
+    <p align="left" class="bigfont"><span class="smallsizedfont"><br/>
+    </span></p>
+<h1 align="left">&nbsp;</h1>
+  <div align="left">
+    <!-- end .content -->
+  </div>
+  </div>
+<!-- end .container --></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>	
+		<image url="t1" type="swf"/>
+		<image url="t1b" type="swf"/>
+	
+	
+	<PLAYLIST songtotal="2">
+		<SONG url="ai1.mp3" TITLE="Radio Message Format"/>
+		<SONG url="ai2.mp3" TITLE="Radio Message Format"/>	
+		
+		
+	</PLAYLIST>
+</page> 
