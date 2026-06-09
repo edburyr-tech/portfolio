@@ -64,7 +64,17 @@ p,
     margin: 0;
     width: 100%; /* ADDED */
 }
+.book-cover{
+    width:min(220px, 80vw);
+    height:auto;
+    display:block;
+    margin:15px auto;
+    transition:.3s;
+}
 
+.book-cover:hover{
+    transform:scale(1.02);
+}
 #work .content {
     width: 100%; /* ADDED */
 }
@@ -156,7 +166,7 @@ header{
 }
 
 section{
-    padding:70px 0;
+    padding:45px 0;
     text-align:center;
 }
 
@@ -189,7 +199,7 @@ h2.section-title::after{
 .job{
     background:white;
     border-radius:20px;
-    padding:35px;
+    padding:30px;
     margin-bottom:30px;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
     text-align:center;
